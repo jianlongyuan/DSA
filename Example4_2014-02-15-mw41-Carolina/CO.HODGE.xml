@@ -1,0 +1,1827 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<FDSNStationXML xmlns="http://www.fdsn.org/xml/station/1" schemaVersion="1.0">
+  <Source>IRIS-DMC</Source>
+  <Sender>IRIS-DMC</Sender>
+  <Module>IRIS WEB SERVICE: fdsnws-station | version: 1.1.45</Module>
+  <ModuleURI>http://service.iris.edu/fdsnws/station/1/query?location=%2A%2A&amp;starttime=2014-02-15T03%3A23%3A38.000001&amp;endtime=2014-02-15T03%3A24%3A38.000001&amp;network=CO&amp;station=HODGE&amp;channel=%2A%2A&amp;level=response</ModuleURI>
+  <Created>2020-03-30T03:17:27</Created>
+  <Network code="CO" restrictedStatus="open" startDate="1987-01-01T00:00:00">
+    <Description>South Carolina Seismic Network (SCSN)</Description>
+    <TotalNumberStations>14</TotalNumberStations>
+    <SelectedNumberStations>1</SelectedNumberStations>
+    <Station code="HODGE" restrictedStatus="open" startDate="2010-03-25T00:00:00">
+      <Latitude unit="DEGREES">34.231499</Latitude>
+      <Longitude unit="DEGREES">-82.258598</Longitude>
+      <Elevation>151.0</Elevation>
+      <Site>
+        <Name>Hodges, SC, USA</Name>
+      </Site>
+      <CreationDate>2010-03-25T00:00:00</CreationDate>
+      <TotalNumberChannels>48</TotalNumberChannels>
+      <SelectedNumberChannels>14</SelectedNumberChannels>
+      <Channel code="HHE" endDate="2018-07-30T21:26:30" locationCode="00" restrictedStatus="open" startDate="2012-04-20T16:00:00">
+        <Comment>
+          <Value>Install equipment [SENSOR::TRILLIUM 120PA::001610], [LOGGER::Q330::360</Value>
+          <BeginEffectiveTime>2012-04-20T16:00:00</BeginEffectiveTime>
+          <EndEffectiveTime>2599-12-31T23:59:59</EndEffectiveTime>
+        </Comment>
+        <Comment>
+          <Value>Install a configured logger and its instruments [SENSOR::TRILLIUM 120P</Value>
+          <BeginEffectiveTime>2012-04-20T16:00:00</BeginEffectiveTime>
+          <EndEffectiveTime>2599-12-31T23:59:59</EndEffectiveTime>
+        </Comment>
+        <Comment>
+          <Value>Install a configured logger and its instruments [SENSOR::TRILLIUM 120P</Value>
+          <BeginEffectiveTime>2012-04-20T16:00:00</BeginEffectiveTime>
+          <EndEffectiveTime>2018-07-30T21:26:30</EndEffectiveTime>
+        </Comment>
+        <Comment>
+          <Value>Reconfigure Hub Logger and change instrumentation</Value>
+          <BeginEffectiveTime>2012-04-20T16:00:00</BeginEffectiveTime>
+          <EndEffectiveTime>2018-07-30T21:26:30</EndEffectiveTime>
+        </Comment>
+        <Comment>
+          <Value>Reconfigure Hub Logger and change instrumentation</Value>
+          <BeginEffectiveTime>2012-04-20T16:00:00</BeginEffectiveTime>
+          <EndEffectiveTime>2599-12-31T23:59:59</EndEffectiveTime>
+        </Comment>
+        <Latitude unit="DEGREES">34.231499</Latitude>
+        <Longitude unit="DEGREES">-82.258598</Longitude>
+        <Elevation>151.0</Elevation>
+        <Depth>0.0</Depth>
+        <Azimuth unit="DEGREES">90.0</Azimuth>
+        <Dip unit="DEGREES">0.0</Dip>
+        <Type>GEOPHYSICAL</Type>
+        <SampleRate unit="SAMPLES/S">100.0</SampleRate>
+        <ClockDrift unit="SECONDS/SAMPLE">0.0</ClockDrift>
+        <CalibrationUnits>
+          <Name>UNKNOWN</Name>
+        </CalibrationUnits>
+        <Sensor>
+          <Description>TRILLIUM 120PA,VELOCITY-TRANSDUCER,NANOMETRICS</Description>
+        </Sensor>
+        <Response>
+          <InstrumentSensitivity>
+            <Value>503735000.0</Value>
+            <Frequency>1.0</Frequency>
+            <InputUnits>
+              <Name>M/S</Name>
+              <Description>Velocity in meters per second</Description>
+            </InputUnits>
+            <OutputUnits>
+              <Name>COUNTS</Name>
+              <Description>Digital Count in Digital counts</Description>
+            </OutputUnits>
+          </InstrumentSensitivity>
+          <Stage number="1">
+            <PolesZeros>
+              <InputUnits>
+                <Name>M/S</Name>
+                <Description>Velocity in meters per second</Description>
+              </InputUnits>
+              <OutputUnits>
+                <Name>V</Name>
+                <Description>Voltage in Volts</Description>
+              </OutputUnits>
+              <PzTransferFunctionType>LAPLACE (RADIANS/SECOND)</PzTransferFunctionType>
+              <NormalizationFactor>308399.0</NormalizationFactor>
+              <NormalizationFrequency unit="HERTZ">1.0</NormalizationFrequency>
+              <Zero number="0">
+                <Real minusError="0.0" plusError="0.0">0.0</Real>
+                <Imaginary minusError="0.0" plusError="0.0">0.0</Imaginary>
+              </Zero>
+              <Zero number="1">
+                <Real minusError="0.0" plusError="0.0">0.0</Real>
+                <Imaginary minusError="0.0" plusError="0.0">0.0</Imaginary>
+              </Zero>
+              <Zero number="2">
+                <Real minusError="0.0" plusError="0.0">-90.0</Real>
+                <Imaginary minusError="0.0" plusError="0.0">0.0</Imaginary>
+              </Zero>
+              <Zero number="3">
+                <Real minusError="0.0" plusError="0.0">-160.7</Real>
+                <Imaginary minusError="0.0" plusError="0.0">0.0</Imaginary>
+              </Zero>
+              <Zero number="4">
+                <Real minusError="0.0" plusError="0.0">-3108.0</Real>
+                <Imaginary minusError="0.0" plusError="0.0">0.0</Imaginary>
+              </Zero>
+              <Pole number="0">
+                <Real minusError="0.0" plusError="0.0">-0.03852</Real>
+                <Imaginary minusError="0.0" plusError="0.0">0.03658</Imaginary>
+              </Pole>
+              <Pole number="1">
+                <Real minusError="0.0" plusError="0.0">-0.03852</Real>
+                <Imaginary minusError="0.0" plusError="0.0">-0.03658</Imaginary>
+              </Pole>
+              <Pole number="2">
+                <Real minusError="0.0" plusError="0.0">-178.0</Real>
+                <Imaginary minusError="0.0" plusError="0.0">0.0</Imaginary>
+              </Pole>
+              <Pole number="3">
+                <Real minusError="0.0" plusError="0.0">-135.0</Real>
+                <Imaginary minusError="0.0" plusError="0.0">160.0</Imaginary>
+              </Pole>
+              <Pole number="4">
+                <Real minusError="0.0" plusError="0.0">-135.0</Real>
+                <Imaginary minusError="0.0" plusError="0.0">-160.0</Imaginary>
+              </Pole>
+              <Pole number="5">
+                <Real minusError="0.0" plusError="0.0">-671.0</Real>
+                <Imaginary minusError="0.0" plusError="0.0">1154.0</Imaginary>
+              </Pole>
+              <Pole number="6">
+                <Real minusError="0.0" plusError="0.0">-671.0</Real>
+                <Imaginary minusError="0.0" plusError="0.0">-1154.0</Imaginary>
+              </Pole>
+            </PolesZeros>
+            <StageGain>
+              <Value>1201.0</Value>
+              <Frequency>1.0</Frequency>
+            </StageGain>
+          </Stage>
+          <Stage number="2">
+            <Coefficients>
+              <InputUnits>
+                <Name>V</Name>
+                <Description>Voltage in Volts</Description>
+              </InputUnits>
+              <OutputUnits>
+                <Name>COUNTS</Name>
+                <Description>Digital Count in Digital counts</Description>
+              </OutputUnits>
+              <CfTransferFunctionType>DIGITAL</CfTransferFunctionType>
+            </Coefficients>
+            <Decimation>
+              <InputSampleRate unit="HERTZ">100.0</InputSampleRate>
+              <Factor>1</Factor>
+              <Offset>0</Offset>
+              <Delay>0.0</Delay>
+              <Correction>0.0</Correction>
+            </Decimation>
+            <StageGain>
+              <Value>419430.0</Value>
+              <Frequency>1.0</Frequency>
+            </StageGain>
+          </Stage>
+          <Stage number="3">
+            <FIR name="Q330_SR_1_100_all_4">
+              <InputUnits>
+                <Name>COUNTS</Name>
+                <Description>Digital Count in Digital counts</Description>
+              </InputUnits>
+              <OutputUnits>
+                <Name>COUNTS</Name>
+                <Description>Digital Count in Digital counts</Description>
+              </OutputUnits>
+              <Symmetry>NONE</Symmetry>
+              <NumeratorCoefficient i="0">6.43711e-14</NumeratorCoefficient>
+              <NumeratorCoefficient i="1">6.58258e-08</NumeratorCoefficient>
+              <NumeratorCoefficient i="2">-7.53118e-07</NumeratorCoefficient>
+              <NumeratorCoefficient i="3">6.26743e-07</NumeratorCoefficient>
+              <NumeratorCoefficient i="4">2.47069e-06</NumeratorCoefficient>
+              <NumeratorCoefficient i="5">-3.15256e-06</NumeratorCoefficient>
+              <NumeratorCoefficient i="6">5.4824e-06</NumeratorCoefficient>
+              <NumeratorCoefficient i="7">-7.78113e-06</NumeratorCoefficient>
+              <NumeratorCoefficient i="8">5.10559e-06</NumeratorCoefficient>
+              <NumeratorCoefficient i="9">3.31568e-05</NumeratorCoefficient>
+              <NumeratorCoefficient i="10">-0.000268238</NumeratorCoefficient>
+              <NumeratorCoefficient i="11">-0.000353056</NumeratorCoefficient>
+              <NumeratorCoefficient i="12">0.000622489</NumeratorCoefficient>
+              <NumeratorCoefficient i="13">-0.00101006</NumeratorCoefficient>
+              <NumeratorCoefficient i="14">0.00127276</NumeratorCoefficient>
+              <NumeratorCoefficient i="15">-0.00118431</NumeratorCoefficient>
+              <NumeratorCoefficient i="16">0.000512697</NumeratorCoefficient>
+              <NumeratorCoefficient i="17">0.000910091</NumeratorCoefficient>
+              <NumeratorCoefficient i="18">-0.00309045</NumeratorCoefficient>
+              <NumeratorCoefficient i="19">0.00581107</NumeratorCoefficient>
+              <NumeratorCoefficient i="20">-0.00857787</NumeratorCoefficient>
+              <NumeratorCoefficient i="21">0.0106344</NumeratorCoefficient>
+              <NumeratorCoefficient i="22">-0.0110399</NumeratorCoefficient>
+              <NumeratorCoefficient i="23">0.00881308</NumeratorCoefficient>
+              <NumeratorCoefficient i="24">-0.00307778</NumeratorCoefficient>
+              <NumeratorCoefficient i="25">-0.00464808</NumeratorCoefficient>
+              <NumeratorCoefficient i="26">0.016017</NumeratorCoefficient>
+              <NumeratorCoefficient i="27">-0.0372088</NumeratorCoefficient>
+              <NumeratorCoefficient i="28">0.0536013</NumeratorCoefficient>
+              <NumeratorCoefficient i="29">-0.0726163</NumeratorCoefficient>
+              <NumeratorCoefficient i="30">0.0878551</NumeratorCoefficient>
+              <NumeratorCoefficient i="31">-0.0979276</NumeratorCoefficient>
+              <NumeratorCoefficient i="32">0.0946782</NumeratorCoefficient>
+              <NumeratorCoefficient i="33">0.888891</NumeratorCoefficient>
+              <NumeratorCoefficient i="34">0.138422</NumeratorCoefficient>
+              <NumeratorCoefficient i="35">-0.115331</NumeratorCoefficient>
+              <NumeratorCoefficient i="36">0.0951158</NumeratorCoefficient>
+              <NumeratorCoefficient i="37">-0.0743198</NumeratorCoefficient>
+              <NumeratorCoefficient i="38">0.0521264</NumeratorCoefficient>
+              <NumeratorCoefficient i="39">-0.0339684</NumeratorCoefficient>
+              <NumeratorCoefficient i="40">0.0122831</NumeratorCoefficient>
+              <NumeratorCoefficient i="41">-0.00140239</NumeratorCoefficient>
+              <NumeratorCoefficient i="42">-0.00585837</NumeratorCoefficient>
+              <NumeratorCoefficient i="43">0.0107618</NumeratorCoefficient>
+              <NumeratorCoefficient i="44">-0.0121488</NumeratorCoefficient>
+              <NumeratorCoefficient i="45">0.0110276</NumeratorCoefficient>
+              <NumeratorCoefficient i="46">-0.00845663</NumeratorCoefficient>
+              <NumeratorCoefficient i="47">0.00539437</NumeratorCoefficient>
+              <NumeratorCoefficient i="48">-0.00257072</NumeratorCoefficient>
+              <NumeratorCoefficient i="49">0.000426728</NumeratorCoefficient>
+              <NumeratorCoefficient i="50">0.000881093</NumeratorCoefficient>
+              <NumeratorCoefficient i="51">-0.00141391</NumeratorCoefficient>
+              <NumeratorCoefficient i="52">0.00137928</NumeratorCoefficient>
+              <NumeratorCoefficient i="53">-0.00102993</NumeratorCoefficient>
+              <NumeratorCoefficient i="54">0.000596299</NumeratorCoefficient>
+              <NumeratorCoefficient i="55">-0.000303778</NumeratorCoefficient>
+              <NumeratorCoefficient i="56">-0.000298773</NumeratorCoefficient>
+              <NumeratorCoefficient i="57">3.41094e-05</NumeratorCoefficient>
+              <NumeratorCoefficient i="58">5.26981e-06</NumeratorCoefficient>
+              <NumeratorCoefficient i="59">-8.09269e-06</NumeratorCoefficient>
+              <NumeratorCoefficient i="60">5.56459e-06</NumeratorCoefficient>
+              <NumeratorCoefficient i="61">-2.95383e-06</NumeratorCoefficient>
+              <NumeratorCoefficient i="62">2.26184e-06</NumeratorCoefficient>
+              <NumeratorCoefficient i="63">7.69085e-07</NumeratorCoefficient>
+              <NumeratorCoefficient i="64">-7.49759e-07</NumeratorCoefficient>
+            </FIR>
+            <Decimation>
+              <InputSampleRate unit="HERTZ">100.0</InputSampleRate>
+              <Factor>1</Factor>
+              <Offset>0</Offset>
+              <Delay>0.33</Delay>
+              <Correction>0.33</Correction>
+            </Decimation>
+            <StageGain>
+              <Value>1.0</Value>
+              <Frequency>1.0</Frequency>
+            </StageGain>
+          </Stage>
+        </Response>
+      </Channel>
+      <Channel code="HHN" endDate="2018-07-30T21:26:30" locationCode="00" restrictedStatus="open" startDate="2012-04-20T16:00:00">
+        <Comment>
+          <Value>Reconfigure Hub Logger and change instrumentation</Value>
+          <BeginEffectiveTime>2012-04-20T16:00:00</BeginEffectiveTime>
+          <EndEffectiveTime>2599-12-31T23:59:59</EndEffectiveTime>
+        </Comment>
+        <Comment>
+          <Value>Install a configured logger and its instruments [SENSOR::TRILLIUM 120P</Value>
+          <BeginEffectiveTime>2012-04-20T16:00:00</BeginEffectiveTime>
+          <EndEffectiveTime>2599-12-31T23:59:59</EndEffectiveTime>
+        </Comment>
+        <Comment>
+          <Value>Install a configured logger and its instruments [SENSOR::TRILLIUM 120P</Value>
+          <BeginEffectiveTime>2012-04-20T16:00:00</BeginEffectiveTime>
+          <EndEffectiveTime>2018-07-30T21:26:30</EndEffectiveTime>
+        </Comment>
+        <Comment>
+          <Value>Reconfigure Hub Logger and change instrumentation</Value>
+          <BeginEffectiveTime>2012-04-20T16:00:00</BeginEffectiveTime>
+          <EndEffectiveTime>2018-07-30T21:26:30</EndEffectiveTime>
+        </Comment>
+        <Comment>
+          <Value>Install equipment [SENSOR::TRILLIUM 120PA::001610], [LOGGER::Q330::360</Value>
+          <BeginEffectiveTime>2012-04-20T16:00:00</BeginEffectiveTime>
+          <EndEffectiveTime>2599-12-31T23:59:59</EndEffectiveTime>
+        </Comment>
+        <Latitude unit="DEGREES">34.231499</Latitude>
+        <Longitude unit="DEGREES">-82.258598</Longitude>
+        <Elevation>151.0</Elevation>
+        <Depth>0.0</Depth>
+        <Azimuth unit="DEGREES">0.0</Azimuth>
+        <Dip unit="DEGREES">0.0</Dip>
+        <Type>GEOPHYSICAL</Type>
+        <SampleRate unit="SAMPLES/S">100.0</SampleRate>
+        <ClockDrift unit="SECONDS/SAMPLE">0.0</ClockDrift>
+        <CalibrationUnits>
+          <Name>UNKNOWN</Name>
+        </CalibrationUnits>
+        <Sensor>
+          <Description>TRILLIUM 120PA,VELOCITY-TRANSDUCER,NANOMETRICS</Description>
+        </Sensor>
+        <Response>
+          <InstrumentSensitivity>
+            <Value>503735000.0</Value>
+            <Frequency>1.0</Frequency>
+            <InputUnits>
+              <Name>M/S</Name>
+              <Description>Velocity in meters per second</Description>
+            </InputUnits>
+            <OutputUnits>
+              <Name>COUNTS</Name>
+              <Description>Digital Count in Digital counts</Description>
+            </OutputUnits>
+          </InstrumentSensitivity>
+          <Stage number="1">
+            <PolesZeros>
+              <InputUnits>
+                <Name>M/S</Name>
+                <Description>Velocity in meters per second</Description>
+              </InputUnits>
+              <OutputUnits>
+                <Name>V</Name>
+                <Description>Voltage in Volts</Description>
+              </OutputUnits>
+              <PzTransferFunctionType>LAPLACE (RADIANS/SECOND)</PzTransferFunctionType>
+              <NormalizationFactor>308399.0</NormalizationFactor>
+              <NormalizationFrequency unit="HERTZ">1.0</NormalizationFrequency>
+              <Zero number="0">
+                <Real minusError="0.0" plusError="0.0">0.0</Real>
+                <Imaginary minusError="0.0" plusError="0.0">0.0</Imaginary>
+              </Zero>
+              <Zero number="1">
+                <Real minusError="0.0" plusError="0.0">0.0</Real>
+                <Imaginary minusError="0.0" plusError="0.0">0.0</Imaginary>
+              </Zero>
+              <Zero number="2">
+                <Real minusError="0.0" plusError="0.0">-90.0</Real>
+                <Imaginary minusError="0.0" plusError="0.0">0.0</Imaginary>
+              </Zero>
+              <Zero number="3">
+                <Real minusError="0.0" plusError="0.0">-160.7</Real>
+                <Imaginary minusError="0.0" plusError="0.0">0.0</Imaginary>
+              </Zero>
+              <Zero number="4">
+                <Real minusError="0.0" plusError="0.0">-3108.0</Real>
+                <Imaginary minusError="0.0" plusError="0.0">0.0</Imaginary>
+              </Zero>
+              <Pole number="0">
+                <Real minusError="0.0" plusError="0.0">-0.03852</Real>
+                <Imaginary minusError="0.0" plusError="0.0">0.03658</Imaginary>
+              </Pole>
+              <Pole number="1">
+                <Real minusError="0.0" plusError="0.0">-0.03852</Real>
+                <Imaginary minusError="0.0" plusError="0.0">-0.03658</Imaginary>
+              </Pole>
+              <Pole number="2">
+                <Real minusError="0.0" plusError="0.0">-178.0</Real>
+                <Imaginary minusError="0.0" plusError="0.0">0.0</Imaginary>
+              </Pole>
+              <Pole number="3">
+                <Real minusError="0.0" plusError="0.0">-135.0</Real>
+                <Imaginary minusError="0.0" plusError="0.0">160.0</Imaginary>
+              </Pole>
+              <Pole number="4">
+                <Real minusError="0.0" plusError="0.0">-135.0</Real>
+                <Imaginary minusError="0.0" plusError="0.0">-160.0</Imaginary>
+              </Pole>
+              <Pole number="5">
+                <Real minusError="0.0" plusError="0.0">-671.0</Real>
+                <Imaginary minusError="0.0" plusError="0.0">1154.0</Imaginary>
+              </Pole>
+              <Pole number="6">
+                <Real minusError="0.0" plusError="0.0">-671.0</Real>
+                <Imaginary minusError="0.0" plusError="0.0">-1154.0</Imaginary>
+              </Pole>
+            </PolesZeros>
+            <StageGain>
+              <Value>1201.0</Value>
+              <Frequency>1.0</Frequency>
+            </StageGain>
+          </Stage>
+          <Stage number="2">
+            <Coefficients>
+              <InputUnits>
+                <Name>V</Name>
+                <Description>Voltage in Volts</Description>
+              </InputUnits>
+              <OutputUnits>
+                <Name>COUNTS</Name>
+                <Description>Digital Count in Digital counts</Description>
+              </OutputUnits>
+              <CfTransferFunctionType>DIGITAL</CfTransferFunctionType>
+            </Coefficients>
+            <Decimation>
+              <InputSampleRate unit="HERTZ">100.0</InputSampleRate>
+              <Factor>1</Factor>
+              <Offset>0</Offset>
+              <Delay>0.0</Delay>
+              <Correction>0.0</Correction>
+            </Decimation>
+            <StageGain>
+              <Value>419430.0</Value>
+              <Frequency>1.0</Frequency>
+            </StageGain>
+          </Stage>
+          <Stage number="3">
+            <FIR name="Q330_SR_1_100_all_4">
+              <InputUnits>
+                <Name>COUNTS</Name>
+                <Description>Digital Count in Digital counts</Description>
+              </InputUnits>
+              <OutputUnits>
+                <Name>COUNTS</Name>
+                <Description>Digital Count in Digital counts</Description>
+              </OutputUnits>
+              <Symmetry>NONE</Symmetry>
+              <NumeratorCoefficient i="0">6.43711e-14</NumeratorCoefficient>
+              <NumeratorCoefficient i="1">6.58258e-08</NumeratorCoefficient>
+              <NumeratorCoefficient i="2">-7.53118e-07</NumeratorCoefficient>
+              <NumeratorCoefficient i="3">6.26743e-07</NumeratorCoefficient>
+              <NumeratorCoefficient i="4">2.47069e-06</NumeratorCoefficient>
+              <NumeratorCoefficient i="5">-3.15256e-06</NumeratorCoefficient>
+              <NumeratorCoefficient i="6">5.4824e-06</NumeratorCoefficient>
+              <NumeratorCoefficient i="7">-7.78113e-06</NumeratorCoefficient>
+              <NumeratorCoefficient i="8">5.10559e-06</NumeratorCoefficient>
+              <NumeratorCoefficient i="9">3.31568e-05</NumeratorCoefficient>
+              <NumeratorCoefficient i="10">-0.000268238</NumeratorCoefficient>
+              <NumeratorCoefficient i="11">-0.000353056</NumeratorCoefficient>
+              <NumeratorCoefficient i="12">0.000622489</NumeratorCoefficient>
+              <NumeratorCoefficient i="13">-0.00101006</NumeratorCoefficient>
+              <NumeratorCoefficient i="14">0.00127276</NumeratorCoefficient>
+              <NumeratorCoefficient i="15">-0.00118431</NumeratorCoefficient>
+              <NumeratorCoefficient i="16">0.000512697</NumeratorCoefficient>
+              <NumeratorCoefficient i="17">0.000910091</NumeratorCoefficient>
+              <NumeratorCoefficient i="18">-0.00309045</NumeratorCoefficient>
+              <NumeratorCoefficient i="19">0.00581107</NumeratorCoefficient>
+              <NumeratorCoefficient i="20">-0.00857787</NumeratorCoefficient>
+              <NumeratorCoefficient i="21">0.0106344</NumeratorCoefficient>
+              <NumeratorCoefficient i="22">-0.0110399</NumeratorCoefficient>
+              <NumeratorCoefficient i="23">0.00881308</NumeratorCoefficient>
+              <NumeratorCoefficient i="24">-0.00307778</NumeratorCoefficient>
+              <NumeratorCoefficient i="25">-0.00464808</NumeratorCoefficient>
+              <NumeratorCoefficient i="26">0.016017</NumeratorCoefficient>
+              <NumeratorCoefficient i="27">-0.0372088</NumeratorCoefficient>
+              <NumeratorCoefficient i="28">0.0536013</NumeratorCoefficient>
+              <NumeratorCoefficient i="29">-0.0726163</NumeratorCoefficient>
+              <NumeratorCoefficient i="30">0.0878551</NumeratorCoefficient>
+              <NumeratorCoefficient i="31">-0.0979276</NumeratorCoefficient>
+              <NumeratorCoefficient i="32">0.0946782</NumeratorCoefficient>
+              <NumeratorCoefficient i="33">0.888891</NumeratorCoefficient>
+              <NumeratorCoefficient i="34">0.138422</NumeratorCoefficient>
+              <NumeratorCoefficient i="35">-0.115331</NumeratorCoefficient>
+              <NumeratorCoefficient i="36">0.0951158</NumeratorCoefficient>
+              <NumeratorCoefficient i="37">-0.0743198</NumeratorCoefficient>
+              <NumeratorCoefficient i="38">0.0521264</NumeratorCoefficient>
+              <NumeratorCoefficient i="39">-0.0339684</NumeratorCoefficient>
+              <NumeratorCoefficient i="40">0.0122831</NumeratorCoefficient>
+              <NumeratorCoefficient i="41">-0.00140239</NumeratorCoefficient>
+              <NumeratorCoefficient i="42">-0.00585837</NumeratorCoefficient>
+              <NumeratorCoefficient i="43">0.0107618</NumeratorCoefficient>
+              <NumeratorCoefficient i="44">-0.0121488</NumeratorCoefficient>
+              <NumeratorCoefficient i="45">0.0110276</NumeratorCoefficient>
+              <NumeratorCoefficient i="46">-0.00845663</NumeratorCoefficient>
+              <NumeratorCoefficient i="47">0.00539437</NumeratorCoefficient>
+              <NumeratorCoefficient i="48">-0.00257072</NumeratorCoefficient>
+              <NumeratorCoefficient i="49">0.000426728</NumeratorCoefficient>
+              <NumeratorCoefficient i="50">0.000881093</NumeratorCoefficient>
+              <NumeratorCoefficient i="51">-0.00141391</NumeratorCoefficient>
+              <NumeratorCoefficient i="52">0.00137928</NumeratorCoefficient>
+              <NumeratorCoefficient i="53">-0.00102993</NumeratorCoefficient>
+              <NumeratorCoefficient i="54">0.000596299</NumeratorCoefficient>
+              <NumeratorCoefficient i="55">-0.000303778</NumeratorCoefficient>
+              <NumeratorCoefficient i="56">-0.000298773</NumeratorCoefficient>
+              <NumeratorCoefficient i="57">3.41094e-05</NumeratorCoefficient>
+              <NumeratorCoefficient i="58">5.26981e-06</NumeratorCoefficient>
+              <NumeratorCoefficient i="59">-8.09269e-06</NumeratorCoefficient>
+              <NumeratorCoefficient i="60">5.56459e-06</NumeratorCoefficient>
+              <NumeratorCoefficient i="61">-2.95383e-06</NumeratorCoefficient>
+              <NumeratorCoefficient i="62">2.26184e-06</NumeratorCoefficient>
+              <NumeratorCoefficient i="63">7.69085e-07</NumeratorCoefficient>
+              <NumeratorCoefficient i="64">-7.49759e-07</NumeratorCoefficient>
+            </FIR>
+            <Decimation>
+              <InputSampleRate unit="HERTZ">100.0</InputSampleRate>
+              <Factor>1</Factor>
+              <Offset>0</Offset>
+              <Delay>0.33</Delay>
+              <Correction>0.33</Correction>
+            </Decimation>
+            <StageGain>
+              <Value>1.0</Value>
+              <Frequency>1.0</Frequency>
+            </StageGain>
+          </Stage>
+        </Response>
+      </Channel>
+      <Channel code="HHZ" endDate="2018-07-30T21:26:30" locationCode="00" restrictedStatus="open" startDate="2012-04-20T16:00:00">
+        <Comment>
+          <Value>Install a configured logger and its instruments [SENSOR::TRILLIUM 120P</Value>
+          <BeginEffectiveTime>2012-04-20T16:00:00</BeginEffectiveTime>
+          <EndEffectiveTime>2018-07-30T21:26:30</EndEffectiveTime>
+        </Comment>
+        <Comment>
+          <Value>Install equipment [SENSOR::TRILLIUM 120PA::001610], [LOGGER::Q330::360</Value>
+          <BeginEffectiveTime>2012-04-20T16:00:00</BeginEffectiveTime>
+          <EndEffectiveTime>2599-12-31T23:59:59</EndEffectiveTime>
+        </Comment>
+        <Comment>
+          <Value>Install a configured logger and its instruments [SENSOR::TRILLIUM 120P</Value>
+          <BeginEffectiveTime>2012-04-20T16:00:00</BeginEffectiveTime>
+          <EndEffectiveTime>2599-12-31T23:59:59</EndEffectiveTime>
+        </Comment>
+        <Comment>
+          <Value>Reconfigure Hub Logger and change instrumentation</Value>
+          <BeginEffectiveTime>2012-04-20T16:00:00</BeginEffectiveTime>
+          <EndEffectiveTime>2018-07-30T21:26:30</EndEffectiveTime>
+        </Comment>
+        <Comment>
+          <Value>Reconfigure Hub Logger and change instrumentation</Value>
+          <BeginEffectiveTime>2012-04-20T16:00:00</BeginEffectiveTime>
+          <EndEffectiveTime>2599-12-31T23:59:59</EndEffectiveTime>
+        </Comment>
+        <Latitude unit="DEGREES">34.231499</Latitude>
+        <Longitude unit="DEGREES">-82.258598</Longitude>
+        <Elevation>151.0</Elevation>
+        <Depth>0.0</Depth>
+        <Azimuth unit="DEGREES">0.0</Azimuth>
+        <Dip unit="DEGREES">-90.0</Dip>
+        <Type>GEOPHYSICAL</Type>
+        <SampleRate unit="SAMPLES/S">100.0</SampleRate>
+        <ClockDrift unit="SECONDS/SAMPLE">0.0</ClockDrift>
+        <CalibrationUnits>
+          <Name>UNKNOWN</Name>
+        </CalibrationUnits>
+        <Sensor>
+          <Description>TRILLIUM 120PA,VELOCITY-TRANSDUCER,NANOMETRICS</Description>
+        </Sensor>
+        <Response>
+          <InstrumentSensitivity>
+            <Value>503735000.0</Value>
+            <Frequency>1.0</Frequency>
+            <InputUnits>
+              <Name>M/S</Name>
+              <Description>Velocity in meters per second</Description>
+            </InputUnits>
+            <OutputUnits>
+              <Name>COUNTS</Name>
+              <Description>Digital Count in Digital counts</Description>
+            </OutputUnits>
+          </InstrumentSensitivity>
+          <Stage number="1">
+            <PolesZeros>
+              <InputUnits>
+                <Name>M/S</Name>
+                <Description>Velocity in meters per second</Description>
+              </InputUnits>
+              <OutputUnits>
+                <Name>V</Name>
+                <Description>Voltage in Volts</Description>
+              </OutputUnits>
+              <PzTransferFunctionType>LAPLACE (RADIANS/SECOND)</PzTransferFunctionType>
+              <NormalizationFactor>308399.0</NormalizationFactor>
+              <NormalizationFrequency unit="HERTZ">1.0</NormalizationFrequency>
+              <Zero number="0">
+                <Real minusError="0.0" plusError="0.0">0.0</Real>
+                <Imaginary minusError="0.0" plusError="0.0">0.0</Imaginary>
+              </Zero>
+              <Zero number="1">
+                <Real minusError="0.0" plusError="0.0">0.0</Real>
+                <Imaginary minusError="0.0" plusError="0.0">0.0</Imaginary>
+              </Zero>
+              <Zero number="2">
+                <Real minusError="0.0" plusError="0.0">-90.0</Real>
+                <Imaginary minusError="0.0" plusError="0.0">0.0</Imaginary>
+              </Zero>
+              <Zero number="3">
+                <Real minusError="0.0" plusError="0.0">-160.7</Real>
+                <Imaginary minusError="0.0" plusError="0.0">0.0</Imaginary>
+              </Zero>
+              <Zero number="4">
+                <Real minusError="0.0" plusError="0.0">-3108.0</Real>
+                <Imaginary minusError="0.0" plusError="0.0">0.0</Imaginary>
+              </Zero>
+              <Pole number="0">
+                <Real minusError="0.0" plusError="0.0">-0.03852</Real>
+                <Imaginary minusError="0.0" plusError="0.0">0.03658</Imaginary>
+              </Pole>
+              <Pole number="1">
+                <Real minusError="0.0" plusError="0.0">-0.03852</Real>
+                <Imaginary minusError="0.0" plusError="0.0">-0.03658</Imaginary>
+              </Pole>
+              <Pole number="2">
+                <Real minusError="0.0" plusError="0.0">-178.0</Real>
+                <Imaginary minusError="0.0" plusError="0.0">0.0</Imaginary>
+              </Pole>
+              <Pole number="3">
+                <Real minusError="0.0" plusError="0.0">-135.0</Real>
+                <Imaginary minusError="0.0" plusError="0.0">160.0</Imaginary>
+              </Pole>
+              <Pole number="4">
+                <Real minusError="0.0" plusError="0.0">-135.0</Real>
+                <Imaginary minusError="0.0" plusError="0.0">-160.0</Imaginary>
+              </Pole>
+              <Pole number="5">
+                <Real minusError="0.0" plusError="0.0">-671.0</Real>
+                <Imaginary minusError="0.0" plusError="0.0">1154.0</Imaginary>
+              </Pole>
+              <Pole number="6">
+                <Real minusError="0.0" plusError="0.0">-671.0</Real>
+                <Imaginary minusError="0.0" plusError="0.0">-1154.0</Imaginary>
+              </Pole>
+            </PolesZeros>
+            <StageGain>
+              <Value>1201.0</Value>
+              <Frequency>1.0</Frequency>
+            </StageGain>
+          </Stage>
+          <Stage number="2">
+            <Coefficients>
+              <InputUnits>
+                <Name>V</Name>
+                <Description>Voltage in Volts</Description>
+              </InputUnits>
+              <OutputUnits>
+                <Name>COUNTS</Name>
+                <Description>Digital Count in Digital counts</Description>
+              </OutputUnits>
+              <CfTransferFunctionType>DIGITAL</CfTransferFunctionType>
+            </Coefficients>
+            <Decimation>
+              <InputSampleRate unit="HERTZ">100.0</InputSampleRate>
+              <Factor>1</Factor>
+              <Offset>0</Offset>
+              <Delay>0.0</Delay>
+              <Correction>0.0</Correction>
+            </Decimation>
+            <StageGain>
+              <Value>419430.0</Value>
+              <Frequency>1.0</Frequency>
+            </StageGain>
+          </Stage>
+          <Stage number="3">
+            <FIR name="Q330_SR_1_100_all_4">
+              <InputUnits>
+                <Name>COUNTS</Name>
+                <Description>Digital Count in Digital counts</Description>
+              </InputUnits>
+              <OutputUnits>
+                <Name>COUNTS</Name>
+                <Description>Digital Count in Digital counts</Description>
+              </OutputUnits>
+              <Symmetry>NONE</Symmetry>
+              <NumeratorCoefficient i="0">6.43711e-14</NumeratorCoefficient>
+              <NumeratorCoefficient i="1">6.58258e-08</NumeratorCoefficient>
+              <NumeratorCoefficient i="2">-7.53118e-07</NumeratorCoefficient>
+              <NumeratorCoefficient i="3">6.26743e-07</NumeratorCoefficient>
+              <NumeratorCoefficient i="4">2.47069e-06</NumeratorCoefficient>
+              <NumeratorCoefficient i="5">-3.15256e-06</NumeratorCoefficient>
+              <NumeratorCoefficient i="6">5.4824e-06</NumeratorCoefficient>
+              <NumeratorCoefficient i="7">-7.78113e-06</NumeratorCoefficient>
+              <NumeratorCoefficient i="8">5.10559e-06</NumeratorCoefficient>
+              <NumeratorCoefficient i="9">3.31568e-05</NumeratorCoefficient>
+              <NumeratorCoefficient i="10">-0.000268238</NumeratorCoefficient>
+              <NumeratorCoefficient i="11">-0.000353056</NumeratorCoefficient>
+              <NumeratorCoefficient i="12">0.000622489</NumeratorCoefficient>
+              <NumeratorCoefficient i="13">-0.00101006</NumeratorCoefficient>
+              <NumeratorCoefficient i="14">0.00127276</NumeratorCoefficient>
+              <NumeratorCoefficient i="15">-0.00118431</NumeratorCoefficient>
+              <NumeratorCoefficient i="16">0.000512697</NumeratorCoefficient>
+              <NumeratorCoefficient i="17">0.000910091</NumeratorCoefficient>
+              <NumeratorCoefficient i="18">-0.00309045</NumeratorCoefficient>
+              <NumeratorCoefficient i="19">0.00581107</NumeratorCoefficient>
+              <NumeratorCoefficient i="20">-0.00857787</NumeratorCoefficient>
+              <NumeratorCoefficient i="21">0.0106344</NumeratorCoefficient>
+              <NumeratorCoefficient i="22">-0.0110399</NumeratorCoefficient>
+              <NumeratorCoefficient i="23">0.00881308</NumeratorCoefficient>
+              <NumeratorCoefficient i="24">-0.00307778</NumeratorCoefficient>
+              <NumeratorCoefficient i="25">-0.00464808</NumeratorCoefficient>
+              <NumeratorCoefficient i="26">0.016017</NumeratorCoefficient>
+              <NumeratorCoefficient i="27">-0.0372088</NumeratorCoefficient>
+              <NumeratorCoefficient i="28">0.0536013</NumeratorCoefficient>
+              <NumeratorCoefficient i="29">-0.0726163</NumeratorCoefficient>
+              <NumeratorCoefficient i="30">0.0878551</NumeratorCoefficient>
+              <NumeratorCoefficient i="31">-0.0979276</NumeratorCoefficient>
+              <NumeratorCoefficient i="32">0.0946782</NumeratorCoefficient>
+              <NumeratorCoefficient i="33">0.888891</NumeratorCoefficient>
+              <NumeratorCoefficient i="34">0.138422</NumeratorCoefficient>
+              <NumeratorCoefficient i="35">-0.115331</NumeratorCoefficient>
+              <NumeratorCoefficient i="36">0.0951158</NumeratorCoefficient>
+              <NumeratorCoefficient i="37">-0.0743198</NumeratorCoefficient>
+              <NumeratorCoefficient i="38">0.0521264</NumeratorCoefficient>
+              <NumeratorCoefficient i="39">-0.0339684</NumeratorCoefficient>
+              <NumeratorCoefficient i="40">0.0122831</NumeratorCoefficient>
+              <NumeratorCoefficient i="41">-0.00140239</NumeratorCoefficient>
+              <NumeratorCoefficient i="42">-0.00585837</NumeratorCoefficient>
+              <NumeratorCoefficient i="43">0.0107618</NumeratorCoefficient>
+              <NumeratorCoefficient i="44">-0.0121488</NumeratorCoefficient>
+              <NumeratorCoefficient i="45">0.0110276</NumeratorCoefficient>
+              <NumeratorCoefficient i="46">-0.00845663</NumeratorCoefficient>
+              <NumeratorCoefficient i="47">0.00539437</NumeratorCoefficient>
+              <NumeratorCoefficient i="48">-0.00257072</NumeratorCoefficient>
+              <NumeratorCoefficient i="49">0.000426728</NumeratorCoefficient>
+              <NumeratorCoefficient i="50">0.000881093</NumeratorCoefficient>
+              <NumeratorCoefficient i="51">-0.00141391</NumeratorCoefficient>
+              <NumeratorCoefficient i="52">0.00137928</NumeratorCoefficient>
+              <NumeratorCoefficient i="53">-0.00102993</NumeratorCoefficient>
+              <NumeratorCoefficient i="54">0.000596299</NumeratorCoefficient>
+              <NumeratorCoefficient i="55">-0.000303778</NumeratorCoefficient>
+              <NumeratorCoefficient i="56">-0.000298773</NumeratorCoefficient>
+              <NumeratorCoefficient i="57">3.41094e-05</NumeratorCoefficient>
+              <NumeratorCoefficient i="58">5.26981e-06</NumeratorCoefficient>
+              <NumeratorCoefficient i="59">-8.09269e-06</NumeratorCoefficient>
+              <NumeratorCoefficient i="60">5.56459e-06</NumeratorCoefficient>
+              <NumeratorCoefficient i="61">-2.95383e-06</NumeratorCoefficient>
+              <NumeratorCoefficient i="62">2.26184e-06</NumeratorCoefficient>
+              <NumeratorCoefficient i="63">7.69085e-07</NumeratorCoefficient>
+              <NumeratorCoefficient i="64">-7.49759e-07</NumeratorCoefficient>
+            </FIR>
+            <Decimation>
+              <InputSampleRate unit="HERTZ">100.0</InputSampleRate>
+              <Factor>1</Factor>
+              <Offset>0</Offset>
+              <Delay>0.33</Delay>
+              <Correction>0.33</Correction>
+            </Decimation>
+            <StageGain>
+              <Value>1.0</Value>
+              <Frequency>1.0</Frequency>
+            </StageGain>
+          </Stage>
+        </Response>
+      </Channel>
+      <Channel code="LCE" endDate="2018-07-30T21:26:30" locationCode="00" restrictedStatus="open" startDate="2012-04-20T16:00:00">
+        <Comment>
+          <Value>Install a configured logger and its instruments [SENSOR::TRILLIUM 120P</Value>
+          <BeginEffectiveTime>2012-04-20T16:00:00</BeginEffectiveTime>
+          <EndEffectiveTime>2018-07-30T21:26:30</EndEffectiveTime>
+        </Comment>
+        <Comment>
+          <Value>Install equipment [SENSOR::TRILLIUM 120PA::001610], [LOGGER::Q330::360</Value>
+          <BeginEffectiveTime>2012-04-20T16:00:00</BeginEffectiveTime>
+          <EndEffectiveTime>2599-12-31T23:59:59</EndEffectiveTime>
+        </Comment>
+        <Comment>
+          <Value>Reconfigure Hub Logger and change instrumentation</Value>
+          <BeginEffectiveTime>2012-04-20T16:00:00</BeginEffectiveTime>
+          <EndEffectiveTime>2599-12-31T23:59:59</EndEffectiveTime>
+        </Comment>
+        <Comment>
+          <Value>Install equipment [SENSOR::TRILLIUM 120PA::001610], [LOGGER::Q330::360</Value>
+          <BeginEffectiveTime>2012-04-20T16:00:00</BeginEffectiveTime>
+          <EndEffectiveTime>2599-12-31T23:59:59</EndEffectiveTime>
+        </Comment>
+        <Comment>
+          <Value>Install a configured logger and its instruments [SENSOR::TRILLIUM 120P</Value>
+          <BeginEffectiveTime>2012-04-20T16:00:00</BeginEffectiveTime>
+          <EndEffectiveTime>2599-12-31T23:59:59</EndEffectiveTime>
+        </Comment>
+        <Comment>
+          <Value>Reconfigure Hub Logger and change instrumentation</Value>
+          <BeginEffectiveTime>2012-04-20T16:00:00</BeginEffectiveTime>
+          <EndEffectiveTime>2018-07-30T21:26:30</EndEffectiveTime>
+        </Comment>
+        <Comment>
+          <Value>Reconfigure Hub Logger and change instrumentation</Value>
+          <BeginEffectiveTime>2012-04-20T16:00:00</BeginEffectiveTime>
+          <EndEffectiveTime>2599-12-31T23:59:59</EndEffectiveTime>
+        </Comment>
+        <Latitude unit="DEGREES">34.231499</Latitude>
+        <Longitude unit="DEGREES">-82.258598</Longitude>
+        <Elevation>151.0</Elevation>
+        <Depth>0.0</Depth>
+        <Azimuth unit="DEGREES">0.0</Azimuth>
+        <Dip unit="DEGREES">0.0</Dip>
+        <Type>INPUT</Type>
+        <SampleRate unit="SAMPLES/S">1.0</SampleRate>
+        <ClockDrift unit="SECONDS/SAMPLE">0.0</ClockDrift>
+        <CalibrationUnits>
+          <Name>UNKNOWN</Name>
+        </CalibrationUnits>
+        <Sensor>
+          <Description>ClockPhase</Description>
+        </Sensor>
+        <Response>
+          <InstrumentSensitivity>
+            <Value>1000.0</Value>
+            <Frequency>0.25</Frequency>
+            <InputUnits>
+              <Name>S</Name>
+              <Description>Time in Seconds</Description>
+            </InputUnits>
+            <OutputUnits>
+              <Name>COUNTS</Name>
+              <Description>Digital Count in Digital counts</Description>
+            </OutputUnits>
+          </InstrumentSensitivity>
+          <Stage number="1">
+            <Coefficients>
+              <InputUnits>
+                <Name>S</Name>
+                <Description>Time in Seconds</Description>
+              </InputUnits>
+              <OutputUnits>
+                <Name>COUNTS</Name>
+                <Description>Digital Count in Digital counts</Description>
+              </OutputUnits>
+              <CfTransferFunctionType>DIGITAL</CfTransferFunctionType>
+            </Coefficients>
+            <Decimation>
+              <InputSampleRate unit="HERTZ">1.0</InputSampleRate>
+              <Factor>1</Factor>
+              <Offset>0</Offset>
+              <Delay>0.0</Delay>
+              <Correction>0.0</Correction>
+            </Decimation>
+            <StageGain>
+              <Value>1000.0</Value>
+              <Frequency>0.25</Frequency>
+            </StageGain>
+          </Stage>
+        </Response>
+      </Channel>
+      <Channel code="LCQ" endDate="2018-07-30T21:26:30" locationCode="00" restrictedStatus="open" startDate="2012-04-20T16:00:00">
+        <Comment>
+          <Value>Install equipment [SENSOR::TRILLIUM 120PA::001610], [LOGGER::Q330::360</Value>
+          <BeginEffectiveTime>2012-04-20T16:00:00</BeginEffectiveTime>
+          <EndEffectiveTime>2599-12-31T23:59:59</EndEffectiveTime>
+        </Comment>
+        <Comment>
+          <Value>Reconfigure Hub Logger and change instrumentation</Value>
+          <BeginEffectiveTime>2012-04-20T16:00:00</BeginEffectiveTime>
+          <EndEffectiveTime>2599-12-31T23:59:59</EndEffectiveTime>
+        </Comment>
+        <Comment>
+          <Value>Install equipment [SENSOR::TRILLIUM 120PA::001610], [LOGGER::Q330::360</Value>
+          <BeginEffectiveTime>2012-04-20T16:00:00</BeginEffectiveTime>
+          <EndEffectiveTime>2599-12-31T23:59:59</EndEffectiveTime>
+        </Comment>
+        <Comment>
+          <Value>Reconfigure Hub Logger and change instrumentation</Value>
+          <BeginEffectiveTime>2012-04-20T16:00:00</BeginEffectiveTime>
+          <EndEffectiveTime>2599-12-31T23:59:59</EndEffectiveTime>
+        </Comment>
+        <Comment>
+          <Value>Install a configured logger and its instruments [SENSOR::TRILLIUM 120P</Value>
+          <BeginEffectiveTime>2012-04-20T16:00:00</BeginEffectiveTime>
+          <EndEffectiveTime>2018-07-30T21:26:30</EndEffectiveTime>
+        </Comment>
+        <Comment>
+          <Value>Install a configured logger and its instruments [SENSOR::TRILLIUM 120P</Value>
+          <BeginEffectiveTime>2012-04-20T16:00:00</BeginEffectiveTime>
+          <EndEffectiveTime>2599-12-31T23:59:59</EndEffectiveTime>
+        </Comment>
+        <Comment>
+          <Value>Reconfigure Hub Logger and change instrumentation</Value>
+          <BeginEffectiveTime>2012-04-20T16:00:00</BeginEffectiveTime>
+          <EndEffectiveTime>2018-07-30T21:26:30</EndEffectiveTime>
+        </Comment>
+        <Latitude unit="DEGREES">34.231499</Latitude>
+        <Longitude unit="DEGREES">-82.258598</Longitude>
+        <Elevation>151.0</Elevation>
+        <Depth>0.0</Depth>
+        <Azimuth unit="DEGREES">0.0</Azimuth>
+        <Dip unit="DEGREES">0.0</Dip>
+        <Type>INPUT</Type>
+        <SampleRate unit="SAMPLES/S">1.0</SampleRate>
+        <ClockDrift unit="SECONDS/SAMPLE">0.0</ClockDrift>
+        <CalibrationUnits>
+          <Name>UNKNOWN</Name>
+        </CalibrationUnits>
+        <Sensor>
+          <Description>ClockQuality</Description>
+        </Sensor>
+        <Response>
+          <InstrumentSensitivity>
+            <Value>1.0</Value>
+            <Frequency>0.25</Frequency>
+            <InputUnits>
+              <Name>%</Name>
+              <Description>Percent in Percentage</Description>
+            </InputUnits>
+            <OutputUnits>
+              <Name>COUNTS</Name>
+              <Description>Digital Count in Digital counts</Description>
+            </OutputUnits>
+          </InstrumentSensitivity>
+          <Stage number="1">
+            <Coefficients>
+              <InputUnits>
+                <Name>%</Name>
+                <Description>Percent in Percentage</Description>
+              </InputUnits>
+              <OutputUnits>
+                <Name>COUNTS</Name>
+                <Description>Digital Count in Digital counts</Description>
+              </OutputUnits>
+              <CfTransferFunctionType>DIGITAL</CfTransferFunctionType>
+            </Coefficients>
+            <Decimation>
+              <InputSampleRate unit="HERTZ">1.0</InputSampleRate>
+              <Factor>1</Factor>
+              <Offset>0</Offset>
+              <Delay>0.0</Delay>
+              <Correction>0.0</Correction>
+            </Decimation>
+            <StageGain>
+              <Value>1.0</Value>
+              <Frequency>0.25</Frequency>
+            </StageGain>
+          </Stage>
+        </Response>
+      </Channel>
+      <Channel code="VCO" endDate="2018-07-30T21:26:30" locationCode="00" restrictedStatus="open" startDate="2012-04-20T16:00:00">
+        <Comment>
+          <Value>Install a configured logger and its instruments [SENSOR::TRILLIUM 120P</Value>
+          <BeginEffectiveTime>2012-04-20T16:00:00</BeginEffectiveTime>
+          <EndEffectiveTime>2018-07-30T21:26:30</EndEffectiveTime>
+        </Comment>
+        <Comment>
+          <Value>Reconfigure Hub Logger and change instrumentation</Value>
+          <BeginEffectiveTime>2012-04-20T16:00:00</BeginEffectiveTime>
+          <EndEffectiveTime>2018-07-30T21:26:30</EndEffectiveTime>
+        </Comment>
+        <Comment>
+          <Value>Install equipment [SENSOR::TRILLIUM 120PA::001610], [LOGGER::Q330::360</Value>
+          <BeginEffectiveTime>2012-04-20T16:00:00</BeginEffectiveTime>
+          <EndEffectiveTime>2599-12-31T23:59:59</EndEffectiveTime>
+        </Comment>
+        <Comment>
+          <Value>Reconfigure Hub Logger and change instrumentation</Value>
+          <BeginEffectiveTime>2012-04-20T16:00:00</BeginEffectiveTime>
+          <EndEffectiveTime>2599-12-31T23:59:59</EndEffectiveTime>
+        </Comment>
+        <Comment>
+          <Value>Install equipment [SENSOR::TRILLIUM 120PA::001610], [LOGGER::Q330::360</Value>
+          <BeginEffectiveTime>2012-04-20T16:00:00</BeginEffectiveTime>
+          <EndEffectiveTime>2599-12-31T23:59:59</EndEffectiveTime>
+        </Comment>
+        <Comment>
+          <Value>Reconfigure Hub Logger and change instrumentation</Value>
+          <BeginEffectiveTime>2012-04-20T16:00:00</BeginEffectiveTime>
+          <EndEffectiveTime>2599-12-31T23:59:59</EndEffectiveTime>
+        </Comment>
+        <Comment>
+          <Value>Install a configured logger and its instruments [SENSOR::TRILLIUM 120P</Value>
+          <BeginEffectiveTime>2012-04-20T16:00:00</BeginEffectiveTime>
+          <EndEffectiveTime>2599-12-31T23:59:59</EndEffectiveTime>
+        </Comment>
+        <Latitude unit="DEGREES">34.231499</Latitude>
+        <Longitude unit="DEGREES">-82.258598</Longitude>
+        <Elevation>151.0</Elevation>
+        <Depth>0.0</Depth>
+        <Azimuth unit="DEGREES">0.0</Azimuth>
+        <Dip unit="DEGREES">0.0</Dip>
+        <Type>INPUT</Type>
+        <SampleRate unit="SAMPLES/S">0.1</SampleRate>
+        <ClockDrift unit="SECONDS/SAMPLE">0.0</ClockDrift>
+        <CalibrationUnits>
+          <Name>UNKNOWN</Name>
+        </CalibrationUnits>
+        <Sensor>
+          <Description>Voltage Controlled Oscillator</Description>
+        </Sensor>
+        <Response>
+          <InstrumentSensitivity>
+            <Value>1.0</Value>
+            <Frequency>0.025</Frequency>
+            <InputUnits>
+              <Name>COUNTS</Name>
+              <Description>Digital Count in Digital counts</Description>
+            </InputUnits>
+            <OutputUnits>
+              <Name>COUNTS</Name>
+              <Description>Digital Count in Digital counts</Description>
+            </OutputUnits>
+          </InstrumentSensitivity>
+          <Stage number="1">
+            <Coefficients>
+              <InputUnits>
+                <Name>COUNTS</Name>
+                <Description>Digital Count in Digital counts</Description>
+              </InputUnits>
+              <OutputUnits>
+                <Name>COUNTS</Name>
+                <Description>Digital Count in Digital counts</Description>
+              </OutputUnits>
+              <CfTransferFunctionType>DIGITAL</CfTransferFunctionType>
+            </Coefficients>
+            <Decimation>
+              <InputSampleRate unit="HERTZ">0.1</InputSampleRate>
+              <Factor>1</Factor>
+              <Offset>0</Offset>
+              <Delay>0.0</Delay>
+              <Correction>0.0</Correction>
+            </Decimation>
+            <StageGain>
+              <Value>1.0</Value>
+              <Frequency>0.025</Frequency>
+            </StageGain>
+          </Stage>
+        </Response>
+      </Channel>
+      <Channel code="VEA" endDate="2018-07-30T21:26:30" locationCode="00" restrictedStatus="open" startDate="2012-04-20T16:00:00">
+        <Comment>
+          <Value>Install a configured logger and its instruments [SENSOR::TRILLIUM 120P</Value>
+          <BeginEffectiveTime>2012-04-20T16:00:00</BeginEffectiveTime>
+          <EndEffectiveTime>2018-07-30T21:26:30</EndEffectiveTime>
+        </Comment>
+        <Comment>
+          <Value>Install equipment [SENSOR::TRILLIUM 120PA::001610], [LOGGER::Q330::360</Value>
+          <BeginEffectiveTime>2012-04-20T16:00:00</BeginEffectiveTime>
+          <EndEffectiveTime>2599-12-31T23:59:59</EndEffectiveTime>
+        </Comment>
+        <Comment>
+          <Value>Reconfigure Hub Logger and change instrumentation</Value>
+          <BeginEffectiveTime>2012-04-20T16:00:00</BeginEffectiveTime>
+          <EndEffectiveTime>2599-12-31T23:59:59</EndEffectiveTime>
+        </Comment>
+        <Comment>
+          <Value>Reconfigure Hub Logger and change instrumentation</Value>
+          <BeginEffectiveTime>2012-04-20T16:00:00</BeginEffectiveTime>
+          <EndEffectiveTime>2599-12-31T23:59:59</EndEffectiveTime>
+        </Comment>
+        <Comment>
+          <Value>Install a configured logger and its instruments [SENSOR::TRILLIUM 120P</Value>
+          <BeginEffectiveTime>2012-04-20T16:00:00</BeginEffectiveTime>
+          <EndEffectiveTime>2599-12-31T23:59:59</EndEffectiveTime>
+        </Comment>
+        <Comment>
+          <Value>Reconfigure Hub Logger and change instrumentation</Value>
+          <BeginEffectiveTime>2012-04-20T16:00:00</BeginEffectiveTime>
+          <EndEffectiveTime>2018-07-30T21:26:30</EndEffectiveTime>
+        </Comment>
+        <Comment>
+          <Value>Install equipment [SENSOR::TRILLIUM 120PA::001610], [LOGGER::Q330::360</Value>
+          <BeginEffectiveTime>2012-04-20T16:00:00</BeginEffectiveTime>
+          <EndEffectiveTime>2599-12-31T23:59:59</EndEffectiveTime>
+        </Comment>
+        <Latitude unit="DEGREES">34.231499</Latitude>
+        <Longitude unit="DEGREES">-82.258598</Longitude>
+        <Elevation>151.0</Elevation>
+        <Depth>0.0</Depth>
+        <Azimuth unit="DEGREES">0.0</Azimuth>
+        <Dip unit="DEGREES">0.0</Dip>
+        <Type>HEALTH</Type>
+        <SampleRate unit="SAMPLES/S">0.1</SampleRate>
+        <ClockDrift unit="SECONDS/SAMPLE">0.0</ClockDrift>
+        <CalibrationUnits>
+          <Name>UNKNOWN</Name>
+        </CalibrationUnits>
+        <Sensor>
+          <Description>AntennaCurrent</Description>
+        </Sensor>
+        <Response>
+          <InstrumentSensitivity>
+            <Value>1000.0</Value>
+            <Frequency>0.025</Frequency>
+            <InputUnits>
+              <Name>A</Name>
+              <Description>Electric Current in Amperes</Description>
+            </InputUnits>
+            <OutputUnits>
+              <Name>COUNTS</Name>
+              <Description>Digital Count in Digital counts</Description>
+            </OutputUnits>
+          </InstrumentSensitivity>
+          <Stage number="1">
+            <Coefficients>
+              <InputUnits>
+                <Name>A</Name>
+                <Description>Electric Current in Amperes</Description>
+              </InputUnits>
+              <OutputUnits>
+                <Name>COUNTS</Name>
+                <Description>Digital Count in Digital counts</Description>
+              </OutputUnits>
+              <CfTransferFunctionType>DIGITAL</CfTransferFunctionType>
+            </Coefficients>
+            <Decimation>
+              <InputSampleRate unit="HERTZ">0.1</InputSampleRate>
+              <Factor>1</Factor>
+              <Offset>0</Offset>
+              <Delay>0.0</Delay>
+              <Correction>0.0</Correction>
+            </Decimation>
+            <StageGain>
+              <Value>1000.0</Value>
+              <Frequency>0.025</Frequency>
+            </StageGain>
+          </Stage>
+        </Response>
+      </Channel>
+      <Channel code="VEC" endDate="2018-07-30T21:26:30" locationCode="00" restrictedStatus="open" startDate="2012-04-20T16:00:00">
+        <Comment>
+          <Value>Install equipment [SENSOR::TRILLIUM 120PA::001610], [LOGGER::Q330::360</Value>
+          <BeginEffectiveTime>2012-04-20T16:00:00</BeginEffectiveTime>
+          <EndEffectiveTime>2599-12-31T23:59:59</EndEffectiveTime>
+        </Comment>
+        <Comment>
+          <Value>Reconfigure Hub Logger and change instrumentation</Value>
+          <BeginEffectiveTime>2012-04-20T16:00:00</BeginEffectiveTime>
+          <EndEffectiveTime>2018-07-30T21:26:30</EndEffectiveTime>
+        </Comment>
+        <Comment>
+          <Value>Reconfigure Hub Logger and change instrumentation</Value>
+          <BeginEffectiveTime>2012-04-20T16:00:00</BeginEffectiveTime>
+          <EndEffectiveTime>2599-12-31T23:59:59</EndEffectiveTime>
+        </Comment>
+        <Comment>
+          <Value>Install equipment [SENSOR::TRILLIUM 120PA::001610], [LOGGER::Q330::360</Value>
+          <BeginEffectiveTime>2012-04-20T16:00:00</BeginEffectiveTime>
+          <EndEffectiveTime>2599-12-31T23:59:59</EndEffectiveTime>
+        </Comment>
+        <Comment>
+          <Value>Reconfigure Hub Logger and change instrumentation</Value>
+          <BeginEffectiveTime>2012-04-20T16:00:00</BeginEffectiveTime>
+          <EndEffectiveTime>2599-12-31T23:59:59</EndEffectiveTime>
+        </Comment>
+        <Comment>
+          <Value>Install a configured logger and its instruments [SENSOR::TRILLIUM 120P</Value>
+          <BeginEffectiveTime>2012-04-20T16:00:00</BeginEffectiveTime>
+          <EndEffectiveTime>2599-12-31T23:59:59</EndEffectiveTime>
+        </Comment>
+        <Comment>
+          <Value>Install a configured logger and its instruments [SENSOR::TRILLIUM 120P</Value>
+          <BeginEffectiveTime>2012-04-20T16:00:00</BeginEffectiveTime>
+          <EndEffectiveTime>2018-07-30T21:26:30</EndEffectiveTime>
+        </Comment>
+        <Latitude unit="DEGREES">34.231499</Latitude>
+        <Longitude unit="DEGREES">-82.258598</Longitude>
+        <Elevation>151.0</Elevation>
+        <Depth>0.0</Depth>
+        <Azimuth unit="DEGREES">0.0</Azimuth>
+        <Dip unit="DEGREES">0.0</Dip>
+        <Type>HEALTH</Type>
+        <SampleRate unit="SAMPLES/S">0.1</SampleRate>
+        <ClockDrift unit="SECONDS/SAMPLE">0.0</ClockDrift>
+        <CalibrationUnits>
+          <Name>UNKNOWN</Name>
+        </CalibrationUnits>
+        <Sensor>
+          <Description>SystemCurrent</Description>
+        </Sensor>
+        <Response>
+          <InstrumentSensitivity>
+            <Value>1000.0</Value>
+            <Frequency>0.025</Frequency>
+            <InputUnits>
+              <Name>A</Name>
+              <Description>Electric Current in Amperes</Description>
+            </InputUnits>
+            <OutputUnits>
+              <Name>COUNTS</Name>
+              <Description>Digital Count in Digital counts</Description>
+            </OutputUnits>
+          </InstrumentSensitivity>
+          <Stage number="1">
+            <Coefficients>
+              <InputUnits>
+                <Name>A</Name>
+                <Description>Electric Current in Amperes</Description>
+              </InputUnits>
+              <OutputUnits>
+                <Name>COUNTS</Name>
+                <Description>Digital Count in Digital counts</Description>
+              </OutputUnits>
+              <CfTransferFunctionType>DIGITAL</CfTransferFunctionType>
+            </Coefficients>
+            <Decimation>
+              <InputSampleRate unit="HERTZ">0.1</InputSampleRate>
+              <Factor>1</Factor>
+              <Offset>0</Offset>
+              <Delay>0.0</Delay>
+              <Correction>0.0</Correction>
+            </Decimation>
+            <StageGain>
+              <Value>1000.0</Value>
+              <Frequency>0.025</Frequency>
+            </StageGain>
+          </Stage>
+        </Response>
+      </Channel>
+      <Channel code="VEP" endDate="2018-07-30T21:26:30" locationCode="00" restrictedStatus="open" startDate="2012-04-20T16:00:00">
+        <Comment>
+          <Value>Reconfigure Hub Logger and change instrumentation</Value>
+          <BeginEffectiveTime>2012-04-20T16:00:00</BeginEffectiveTime>
+          <EndEffectiveTime>2018-07-30T21:26:30</EndEffectiveTime>
+        </Comment>
+        <Comment>
+          <Value>Install equipment [SENSOR::TRILLIUM 120PA::001610], [LOGGER::Q330::360</Value>
+          <BeginEffectiveTime>2012-04-20T16:00:00</BeginEffectiveTime>
+          <EndEffectiveTime>2599-12-31T23:59:59</EndEffectiveTime>
+        </Comment>
+        <Comment>
+          <Value>Reconfigure Hub Logger and change instrumentation</Value>
+          <BeginEffectiveTime>2012-04-20T16:00:00</BeginEffectiveTime>
+          <EndEffectiveTime>2599-12-31T23:59:59</EndEffectiveTime>
+        </Comment>
+        <Comment>
+          <Value>Install equipment [SENSOR::TRILLIUM 120PA::001610], [LOGGER::Q330::360</Value>
+          <BeginEffectiveTime>2012-04-20T16:00:00</BeginEffectiveTime>
+          <EndEffectiveTime>2599-12-31T23:59:59</EndEffectiveTime>
+        </Comment>
+        <Comment>
+          <Value>Reconfigure Hub Logger and change instrumentation</Value>
+          <BeginEffectiveTime>2012-04-20T16:00:00</BeginEffectiveTime>
+          <EndEffectiveTime>2599-12-31T23:59:59</EndEffectiveTime>
+        </Comment>
+        <Comment>
+          <Value>Install a configured logger and its instruments [SENSOR::TRILLIUM 120P</Value>
+          <BeginEffectiveTime>2012-04-20T16:00:00</BeginEffectiveTime>
+          <EndEffectiveTime>2599-12-31T23:59:59</EndEffectiveTime>
+        </Comment>
+        <Comment>
+          <Value>Install a configured logger and its instruments [SENSOR::TRILLIUM 120P</Value>
+          <BeginEffectiveTime>2012-04-20T16:00:00</BeginEffectiveTime>
+          <EndEffectiveTime>2018-07-30T21:26:30</EndEffectiveTime>
+        </Comment>
+        <Latitude unit="DEGREES">34.231499</Latitude>
+        <Longitude unit="DEGREES">-82.258598</Longitude>
+        <Elevation>151.0</Elevation>
+        <Depth>0.0</Depth>
+        <Azimuth unit="DEGREES">0.0</Azimuth>
+        <Dip unit="DEGREES">0.0</Dip>
+        <Type>HEALTH</Type>
+        <SampleRate unit="SAMPLES/S">0.1</SampleRate>
+        <ClockDrift unit="SECONDS/SAMPLE">0.0</ClockDrift>
+        <CalibrationUnits>
+          <Name>UNKNOWN</Name>
+        </CalibrationUnits>
+        <Sensor>
+          <Description>BatteryVoltage</Description>
+        </Sensor>
+        <Response>
+          <InstrumentSensitivity>
+            <Value>6.667</Value>
+            <Frequency>0.025</Frequency>
+            <InputUnits>
+              <Name>V</Name>
+              <Description>Voltage in Volts</Description>
+            </InputUnits>
+            <OutputUnits>
+              <Name>COUNTS</Name>
+              <Description>Digital Count in Digital counts</Description>
+            </OutputUnits>
+          </InstrumentSensitivity>
+          <Stage number="1">
+            <Coefficients>
+              <InputUnits>
+                <Name>V</Name>
+                <Description>Voltage in Volts</Description>
+              </InputUnits>
+              <OutputUnits>
+                <Name>COUNTS</Name>
+                <Description>Digital Count in Digital counts</Description>
+              </OutputUnits>
+              <CfTransferFunctionType>DIGITAL</CfTransferFunctionType>
+            </Coefficients>
+            <Decimation>
+              <InputSampleRate unit="HERTZ">0.1</InputSampleRate>
+              <Factor>1</Factor>
+              <Offset>0</Offset>
+              <Delay>0.0</Delay>
+              <Correction>0.0</Correction>
+            </Decimation>
+            <StageGain>
+              <Value>6.667</Value>
+              <Frequency>0.025</Frequency>
+            </StageGain>
+          </Stage>
+        </Response>
+      </Channel>
+      <Channel code="VFP" endDate="2018-07-30T21:26:30" locationCode="00" restrictedStatus="open" startDate="2012-04-20T16:00:00">
+        <Comment>
+          <Value>Install equipment [SENSOR::TRILLIUM 120PA::001610], [LOGGER::Q330::360</Value>
+          <BeginEffectiveTime>2012-04-20T16:00:00</BeginEffectiveTime>
+          <EndEffectiveTime>2599-12-31T23:59:59</EndEffectiveTime>
+        </Comment>
+        <Comment>
+          <Value>Reconfigure Hub Logger and change instrumentation</Value>
+          <BeginEffectiveTime>2012-04-20T16:00:00</BeginEffectiveTime>
+          <EndEffectiveTime>2599-12-31T23:59:59</EndEffectiveTime>
+        </Comment>
+        <Comment>
+          <Value>Install equipment [SENSOR::TRILLIUM 120PA::001610], [LOGGER::Q330::360</Value>
+          <BeginEffectiveTime>2012-04-20T16:00:00</BeginEffectiveTime>
+          <EndEffectiveTime>2599-12-31T23:59:59</EndEffectiveTime>
+        </Comment>
+        <Comment>
+          <Value>Reconfigure Hub Logger and change instrumentation</Value>
+          <BeginEffectiveTime>2012-04-20T16:00:00</BeginEffectiveTime>
+          <EndEffectiveTime>2599-12-31T23:59:59</EndEffectiveTime>
+        </Comment>
+        <Comment>
+          <Value>Install a configured logger and its instruments [SENSOR::TRILLIUM 120P</Value>
+          <BeginEffectiveTime>2012-04-20T16:00:00</BeginEffectiveTime>
+          <EndEffectiveTime>2599-12-31T23:59:59</EndEffectiveTime>
+        </Comment>
+        <Comment>
+          <Value>Install a configured logger and its instruments [SENSOR::TRILLIUM 120P</Value>
+          <BeginEffectiveTime>2012-04-20T16:00:00</BeginEffectiveTime>
+          <EndEffectiveTime>2018-07-30T21:26:30</EndEffectiveTime>
+        </Comment>
+        <Comment>
+          <Value>Reconfigure Hub Logger and change instrumentation</Value>
+          <BeginEffectiveTime>2012-04-20T16:00:00</BeginEffectiveTime>
+          <EndEffectiveTime>2018-07-30T21:26:30</EndEffectiveTime>
+        </Comment>
+        <Latitude unit="DEGREES">34.231499</Latitude>
+        <Longitude unit="DEGREES">-82.258598</Longitude>
+        <Elevation>151.0</Elevation>
+        <Depth>0.0</Depth>
+        <Azimuth unit="DEGREES">0.0</Azimuth>
+        <Dip unit="DEGREES">0.0</Dip>
+        <Type>GEOPHYSICAL</Type>
+        <SampleRate unit="SAMPLES/S">0.1</SampleRate>
+        <ClockDrift unit="SECONDS/SAMPLE">0.0</ClockDrift>
+        <CalibrationUnits>
+          <Name>UNKNOWN</Name>
+        </CalibrationUnits>
+        <Sensor>
+          <Description>Packet Buffer Usage</Description>
+        </Sensor>
+        <Response>
+          <InstrumentSensitivity>
+            <Value>10.0</Value>
+            <Frequency>0.025</Frequency>
+            <InputUnits>
+              <Name>%</Name>
+              <Description>Percent in Percentage</Description>
+            </InputUnits>
+            <OutputUnits>
+              <Name>COUNTS</Name>
+              <Description>Digital Count in Digital counts</Description>
+            </OutputUnits>
+          </InstrumentSensitivity>
+          <Stage number="1">
+            <Coefficients>
+              <InputUnits>
+                <Name>%</Name>
+                <Description>Percent in Percentage</Description>
+              </InputUnits>
+              <OutputUnits>
+                <Name>COUNTS</Name>
+                <Description>Digital Count in Digital counts</Description>
+              </OutputUnits>
+              <CfTransferFunctionType>DIGITAL</CfTransferFunctionType>
+            </Coefficients>
+            <Decimation>
+              <InputSampleRate unit="HERTZ">0.1</InputSampleRate>
+              <Factor>1</Factor>
+              <Offset>0</Offset>
+              <Delay>0.0</Delay>
+              <Correction>0.0</Correction>
+            </Decimation>
+            <StageGain>
+              <Value>10.0</Value>
+              <Frequency>0.025</Frequency>
+            </StageGain>
+          </Stage>
+        </Response>
+      </Channel>
+      <Channel code="VKI" endDate="2018-07-30T21:26:30" locationCode="00" restrictedStatus="open" startDate="2012-04-20T16:00:00">
+        <Comment>
+          <Value>Install a configured logger and its instruments [SENSOR::TRILLIUM 120P</Value>
+          <BeginEffectiveTime>2012-04-20T16:00:00</BeginEffectiveTime>
+          <EndEffectiveTime>2018-07-30T21:26:30</EndEffectiveTime>
+        </Comment>
+        <Comment>
+          <Value>Install equipment [SENSOR::TRILLIUM 120PA::001610], [LOGGER::Q330::360</Value>
+          <BeginEffectiveTime>2012-04-20T16:00:00</BeginEffectiveTime>
+          <EndEffectiveTime>2599-12-31T23:59:59</EndEffectiveTime>
+        </Comment>
+        <Comment>
+          <Value>Reconfigure Hub Logger and change instrumentation</Value>
+          <BeginEffectiveTime>2012-04-20T16:00:00</BeginEffectiveTime>
+          <EndEffectiveTime>2599-12-31T23:59:59</EndEffectiveTime>
+        </Comment>
+        <Comment>
+          <Value>Reconfigure Hub Logger and change instrumentation</Value>
+          <BeginEffectiveTime>2012-04-20T16:00:00</BeginEffectiveTime>
+          <EndEffectiveTime>2018-07-30T21:26:30</EndEffectiveTime>
+        </Comment>
+        <Comment>
+          <Value>Install equipment [SENSOR::TRILLIUM 120PA::001610], [LOGGER::Q330::360</Value>
+          <BeginEffectiveTime>2012-04-20T16:00:00</BeginEffectiveTime>
+          <EndEffectiveTime>2599-12-31T23:59:59</EndEffectiveTime>
+        </Comment>
+        <Comment>
+          <Value>Reconfigure Hub Logger and change instrumentation</Value>
+          <BeginEffectiveTime>2012-04-20T16:00:00</BeginEffectiveTime>
+          <EndEffectiveTime>2599-12-31T23:59:59</EndEffectiveTime>
+        </Comment>
+        <Comment>
+          <Value>Install a configured logger and its instruments [SENSOR::TRILLIUM 120P</Value>
+          <BeginEffectiveTime>2012-04-20T16:00:00</BeginEffectiveTime>
+          <EndEffectiveTime>2599-12-31T23:59:59</EndEffectiveTime>
+        </Comment>
+        <Latitude unit="DEGREES">34.231499</Latitude>
+        <Longitude unit="DEGREES">-82.258598</Longitude>
+        <Elevation>151.0</Elevation>
+        <Depth>0.0</Depth>
+        <Azimuth unit="DEGREES">0.0</Azimuth>
+        <Dip unit="DEGREES">0.0</Dip>
+        <Type>WEATHER</Type>
+        <SampleRate unit="SAMPLES/S">0.1</SampleRate>
+        <ClockDrift unit="SECONDS/SAMPLE">0.0</ClockDrift>
+        <CalibrationUnits>
+          <Name>UNKNOWN</Name>
+        </CalibrationUnits>
+        <Sensor>
+          <Description>SystemTemperature</Description>
+        </Sensor>
+        <Response>
+          <InstrumentSensitivity>
+            <Value>1.0</Value>
+            <Frequency>0.025</Frequency>
+            <InputUnits>
+              <Name>DEGC</Name>
+              <Description>Temperature in degree Celsius</Description>
+            </InputUnits>
+            <OutputUnits>
+              <Name>COUNTS</Name>
+              <Description>Digital Count in Digital counts</Description>
+            </OutputUnits>
+          </InstrumentSensitivity>
+          <Stage number="1">
+            <Coefficients>
+              <InputUnits>
+                <Name>DEGC</Name>
+                <Description>Temperature in degree Celsius</Description>
+              </InputUnits>
+              <OutputUnits>
+                <Name>COUNTS</Name>
+                <Description>Digital Count in Digital counts</Description>
+              </OutputUnits>
+              <CfTransferFunctionType>DIGITAL</CfTransferFunctionType>
+            </Coefficients>
+            <Decimation>
+              <InputSampleRate unit="HERTZ">0.1</InputSampleRate>
+              <Factor>1</Factor>
+              <Offset>0</Offset>
+              <Delay>0.0</Delay>
+              <Correction>0.0</Correction>
+            </Decimation>
+            <StageGain>
+              <Value>1.0</Value>
+              <Frequency>0.025</Frequency>
+            </StageGain>
+          </Stage>
+        </Response>
+      </Channel>
+      <Channel code="VMU" endDate="2018-07-30T21:26:30" locationCode="00" restrictedStatus="open" startDate="2012-04-20T16:00:00">
+        <Comment>
+          <Value>Install a configured logger and its instruments [SENSOR::TRILLIUM 120P</Value>
+          <BeginEffectiveTime>2012-04-20T16:00:00</BeginEffectiveTime>
+          <EndEffectiveTime>2018-07-30T21:26:30</EndEffectiveTime>
+        </Comment>
+        <Comment>
+          <Value>Install equipment [SENSOR::TRILLIUM 120PA::001610], [LOGGER::Q330::360</Value>
+          <BeginEffectiveTime>2012-04-20T16:00:00</BeginEffectiveTime>
+          <EndEffectiveTime>2599-12-31T23:59:59</EndEffectiveTime>
+        </Comment>
+        <Comment>
+          <Value>Reconfigure Hub Logger and change instrumentation</Value>
+          <BeginEffectiveTime>2012-04-20T16:00:00</BeginEffectiveTime>
+          <EndEffectiveTime>2018-07-30T21:26:30</EndEffectiveTime>
+        </Comment>
+        <Comment>
+          <Value>Reconfigure Hub Logger and change instrumentation</Value>
+          <BeginEffectiveTime>2012-04-20T16:00:00</BeginEffectiveTime>
+          <EndEffectiveTime>2599-12-31T23:59:59</EndEffectiveTime>
+        </Comment>
+        <Comment>
+          <Value>Install a configured logger and its instruments [SENSOR::TRILLIUM 120P</Value>
+          <BeginEffectiveTime>2012-04-20T16:00:00</BeginEffectiveTime>
+          <EndEffectiveTime>2599-12-31T23:59:59</EndEffectiveTime>
+        </Comment>
+        <Latitude unit="DEGREES">34.231499</Latitude>
+        <Longitude unit="DEGREES">-82.258598</Longitude>
+        <Elevation>151.0</Elevation>
+        <Depth>0.0</Depth>
+        <Azimuth unit="DEGREES">330.0</Azimuth>
+        <Dip unit="DEGREES">-54.7</Dip>
+        <Type>GEOPHYSICAL</Type>
+        <Type>HEALTH</Type>
+        <SampleRate unit="SAMPLES/S">0.1</SampleRate>
+        <ClockDrift unit="SECONDS/SAMPLE">0.0</ClockDrift>
+        <CalibrationUnits>
+          <Name>UNKNOWN</Name>
+        </CalibrationUnits>
+        <Sensor>
+          <Description>TRILLIUM 120PA,VELOCITY-TRANSDUCER,NANOMETRICS</Description>
+        </Sensor>
+        <Response>
+          <InstrumentSensitivity>
+            <Value>10.0</Value>
+            <Frequency>0.025</Frequency>
+            <InputUnits>
+              <Name>M/S**2</Name>
+              <Description>Acceleration in meters per second squared</Description>
+            </InputUnits>
+            <OutputUnits>
+              <Name>COUNTS</Name>
+              <Description>Digital Count in Digital counts</Description>
+            </OutputUnits>
+          </InstrumentSensitivity>
+          <Stage number="1">
+            <PolesZeros>
+              <InputUnits>
+                <Name>M/S**2</Name>
+                <Description>Acceleration in meters per second squared</Description>
+              </InputUnits>
+              <OutputUnits>
+                <Name>V</Name>
+                <Description>Voltage in Volts</Description>
+              </OutputUnits>
+              <PzTransferFunctionType>LAPLACE (HERTZ)</PzTransferFunctionType>
+              <NormalizationFactor>1.0</NormalizationFactor>
+              <NormalizationFrequency unit="HERTZ">1.0</NormalizationFrequency>
+            </PolesZeros>
+            <StageGain>
+              <Value>1.0</Value>
+              <Frequency>0.025</Frequency>
+            </StageGain>
+          </Stage>
+          <Stage number="2">
+            <Coefficients>
+              <InputUnits>
+                <Name>V</Name>
+                <Description>Voltage in Volts</Description>
+              </InputUnits>
+              <OutputUnits>
+                <Name>COUNTS</Name>
+                <Description>Digital Count in Digital counts</Description>
+              </OutputUnits>
+              <CfTransferFunctionType>DIGITAL</CfTransferFunctionType>
+            </Coefficients>
+            <Decimation>
+              <InputSampleRate unit="HERTZ">0.1</InputSampleRate>
+              <Factor>1</Factor>
+              <Offset>0</Offset>
+              <Delay>0.0</Delay>
+              <Correction>0.0</Correction>
+            </Decimation>
+            <StageGain>
+              <Value>10.0</Value>
+              <Frequency>0.025</Frequency>
+            </StageGain>
+          </Stage>
+          <Stage number="3">
+            <FIR name="unity_mass_position_FIR_f">
+              <InputUnits>
+                <Name>COUNTS</Name>
+                <Description>Digital Count in Digital counts</Description>
+              </InputUnits>
+              <OutputUnits>
+                <Name>COUNTS</Name>
+                <Description>Digital Count in Digital counts</Description>
+              </OutputUnits>
+              <Symmetry>NONE</Symmetry>
+              <NumeratorCoefficient i="0">1.0</NumeratorCoefficient>
+            </FIR>
+            <Decimation>
+              <InputSampleRate unit="HERTZ">0.1</InputSampleRate>
+              <Factor>1</Factor>
+              <Offset>0</Offset>
+              <Delay>0.0</Delay>
+              <Correction>0.0</Correction>
+            </Decimation>
+            <StageGain>
+              <Value>1.0</Value>
+              <Frequency>0.025</Frequency>
+            </StageGain>
+          </Stage>
+        </Response>
+      </Channel>
+      <Channel code="VMV" endDate="2018-07-30T21:26:30" locationCode="00" restrictedStatus="open" startDate="2012-04-20T16:00:00">
+        <Comment>
+          <Value>Install a configured logger and its instruments [SENSOR::TRILLIUM 120P</Value>
+          <BeginEffectiveTime>2012-04-20T16:00:00</BeginEffectiveTime>
+          <EndEffectiveTime>2018-07-30T21:26:30</EndEffectiveTime>
+        </Comment>
+        <Comment>
+          <Value>Reconfigure Hub Logger and change instrumentation</Value>
+          <BeginEffectiveTime>2012-04-20T16:00:00</BeginEffectiveTime>
+          <EndEffectiveTime>2018-07-30T21:26:30</EndEffectiveTime>
+        </Comment>
+        <Comment>
+          <Value>Install equipment [SENSOR::TRILLIUM 120PA::001610], [LOGGER::Q330::360</Value>
+          <BeginEffectiveTime>2012-04-20T16:00:00</BeginEffectiveTime>
+          <EndEffectiveTime>2599-12-31T23:59:59</EndEffectiveTime>
+        </Comment>
+        <Comment>
+          <Value>Reconfigure Hub Logger and change instrumentation</Value>
+          <BeginEffectiveTime>2012-04-20T16:00:00</BeginEffectiveTime>
+          <EndEffectiveTime>2599-12-31T23:59:59</EndEffectiveTime>
+        </Comment>
+        <Comment>
+          <Value>Install a configured logger and its instruments [SENSOR::TRILLIUM 120P</Value>
+          <BeginEffectiveTime>2012-04-20T16:00:00</BeginEffectiveTime>
+          <EndEffectiveTime>2599-12-31T23:59:59</EndEffectiveTime>
+        </Comment>
+        <Latitude unit="DEGREES">34.231499</Latitude>
+        <Longitude unit="DEGREES">-82.258598</Longitude>
+        <Elevation>151.0</Elevation>
+        <Depth>0.0</Depth>
+        <Azimuth unit="DEGREES">210.0</Azimuth>
+        <Dip unit="DEGREES">-54.7</Dip>
+        <Type>GEOPHYSICAL</Type>
+        <Type>HEALTH</Type>
+        <SampleRate unit="SAMPLES/S">0.1</SampleRate>
+        <ClockDrift unit="SECONDS/SAMPLE">0.0</ClockDrift>
+        <CalibrationUnits>
+          <Name>UNKNOWN</Name>
+        </CalibrationUnits>
+        <Sensor>
+          <Description>TRILLIUM 120PA,VELOCITY-TRANSDUCER,NANOMETRICS</Description>
+        </Sensor>
+        <Response>
+          <InstrumentSensitivity>
+            <Value>10.0</Value>
+            <Frequency>0.025</Frequency>
+            <InputUnits>
+              <Name>M/S**2</Name>
+              <Description>Acceleration in meters per second squared</Description>
+            </InputUnits>
+            <OutputUnits>
+              <Name>COUNTS</Name>
+              <Description>Digital Count in Digital counts</Description>
+            </OutputUnits>
+          </InstrumentSensitivity>
+          <Stage number="1">
+            <PolesZeros>
+              <InputUnits>
+                <Name>M/S**2</Name>
+                <Description>Acceleration in meters per second squared</Description>
+              </InputUnits>
+              <OutputUnits>
+                <Name>V</Name>
+                <Description>Voltage in Volts</Description>
+              </OutputUnits>
+              <PzTransferFunctionType>LAPLACE (HERTZ)</PzTransferFunctionType>
+              <NormalizationFactor>1.0</NormalizationFactor>
+              <NormalizationFrequency unit="HERTZ">1.0</NormalizationFrequency>
+            </PolesZeros>
+            <StageGain>
+              <Value>1.0</Value>
+              <Frequency>0.025</Frequency>
+            </StageGain>
+          </Stage>
+          <Stage number="2">
+            <Coefficients>
+              <InputUnits>
+                <Name>V</Name>
+                <Description>Voltage in Volts</Description>
+              </InputUnits>
+              <OutputUnits>
+                <Name>COUNTS</Name>
+                <Description>Digital Count in Digital counts</Description>
+              </OutputUnits>
+              <CfTransferFunctionType>DIGITAL</CfTransferFunctionType>
+            </Coefficients>
+            <Decimation>
+              <InputSampleRate unit="HERTZ">0.1</InputSampleRate>
+              <Factor>1</Factor>
+              <Offset>0</Offset>
+              <Delay>0.0</Delay>
+              <Correction>0.0</Correction>
+            </Decimation>
+            <StageGain>
+              <Value>10.0</Value>
+              <Frequency>0.025</Frequency>
+            </StageGain>
+          </Stage>
+          <Stage number="3">
+            <FIR name="unity_mass_position_FIR_f">
+              <InputUnits>
+                <Name>COUNTS</Name>
+                <Description>Digital Count in Digital counts</Description>
+              </InputUnits>
+              <OutputUnits>
+                <Name>COUNTS</Name>
+                <Description>Digital Count in Digital counts</Description>
+              </OutputUnits>
+              <Symmetry>NONE</Symmetry>
+              <NumeratorCoefficient i="0">1.0</NumeratorCoefficient>
+            </FIR>
+            <Decimation>
+              <InputSampleRate unit="HERTZ">0.1</InputSampleRate>
+              <Factor>1</Factor>
+              <Offset>0</Offset>
+              <Delay>0.0</Delay>
+              <Correction>0.0</Correction>
+            </Decimation>
+            <StageGain>
+              <Value>1.0</Value>
+              <Frequency>0.025</Frequency>
+            </StageGain>
+          </Stage>
+        </Response>
+      </Channel>
+      <Channel code="VMW" endDate="2018-07-30T21:26:30" locationCode="00" restrictedStatus="open" startDate="2012-04-20T16:00:00">
+        <Comment>
+          <Value>Install equipment [SENSOR::TRILLIUM 120PA::001610], [LOGGER::Q330::360</Value>
+          <BeginEffectiveTime>2012-04-20T16:00:00</BeginEffectiveTime>
+          <EndEffectiveTime>2599-12-31T23:59:59</EndEffectiveTime>
+        </Comment>
+        <Comment>
+          <Value>Reconfigure Hub Logger and change instrumentation</Value>
+          <BeginEffectiveTime>2012-04-20T16:00:00</BeginEffectiveTime>
+          <EndEffectiveTime>2599-12-31T23:59:59</EndEffectiveTime>
+        </Comment>
+        <Comment>
+          <Value>Install a configured logger and its instruments [SENSOR::TRILLIUM 120P</Value>
+          <BeginEffectiveTime>2012-04-20T16:00:00</BeginEffectiveTime>
+          <EndEffectiveTime>2599-12-31T23:59:59</EndEffectiveTime>
+        </Comment>
+        <Comment>
+          <Value>Install a configured logger and its instruments [SENSOR::TRILLIUM 120P</Value>
+          <BeginEffectiveTime>2012-04-20T16:00:00</BeginEffectiveTime>
+          <EndEffectiveTime>2018-07-30T21:26:30</EndEffectiveTime>
+        </Comment>
+        <Comment>
+          <Value>Reconfigure Hub Logger and change instrumentation</Value>
+          <BeginEffectiveTime>2012-04-20T16:00:00</BeginEffectiveTime>
+          <EndEffectiveTime>2018-07-30T21:26:30</EndEffectiveTime>
+        </Comment>
+        <Latitude unit="DEGREES">34.231499</Latitude>
+        <Longitude unit="DEGREES">-82.258598</Longitude>
+        <Elevation>151.0</Elevation>
+        <Depth>0.0</Depth>
+        <Azimuth unit="DEGREES">90.0</Azimuth>
+        <Dip unit="DEGREES">-54.7</Dip>
+        <Type>GEOPHYSICAL</Type>
+        <Type>HEALTH</Type>
+        <SampleRate unit="SAMPLES/S">0.1</SampleRate>
+        <ClockDrift unit="SECONDS/SAMPLE">0.0</ClockDrift>
+        <CalibrationUnits>
+          <Name>UNKNOWN</Name>
+        </CalibrationUnits>
+        <Sensor>
+          <Description>TRILLIUM 120PA,VELOCITY-TRANSDUCER,NANOMETRICS</Description>
+        </Sensor>
+        <Response>
+          <InstrumentSensitivity>
+            <Value>10.0</Value>
+            <Frequency>0.025</Frequency>
+            <InputUnits>
+              <Name>M/S**2</Name>
+              <Description>Acceleration in meters per second squared</Description>
+            </InputUnits>
+            <OutputUnits>
+              <Name>COUNTS</Name>
+              <Description>Digital Count in Digital counts</Description>
+            </OutputUnits>
+          </InstrumentSensitivity>
+          <Stage number="1">
+            <PolesZeros>
+              <InputUnits>
+                <Name>M/S**2</Name>
+                <Description>Acceleration in meters per second squared</Description>
+              </InputUnits>
+              <OutputUnits>
+                <Name>V</Name>
+                <Description>Voltage in Volts</Description>
+              </OutputUnits>
+              <PzTransferFunctionType>LAPLACE (HERTZ)</PzTransferFunctionType>
+              <NormalizationFactor>1.0</NormalizationFactor>
+              <NormalizationFrequency unit="HERTZ">1.0</NormalizationFrequency>
+            </PolesZeros>
+            <StageGain>
+              <Value>1.0</Value>
+              <Frequency>0.025</Frequency>
+            </StageGain>
+          </Stage>
+          <Stage number="2">
+            <Coefficients>
+              <InputUnits>
+                <Name>V</Name>
+                <Description>Voltage in Volts</Description>
+              </InputUnits>
+              <OutputUnits>
+                <Name>COUNTS</Name>
+                <Description>Digital Count in Digital counts</Description>
+              </OutputUnits>
+              <CfTransferFunctionType>DIGITAL</CfTransferFunctionType>
+            </Coefficients>
+            <Decimation>
+              <InputSampleRate unit="HERTZ">0.1</InputSampleRate>
+              <Factor>1</Factor>
+              <Offset>0</Offset>
+              <Delay>0.0</Delay>
+              <Correction>0.0</Correction>
+            </Decimation>
+            <StageGain>
+              <Value>10.0</Value>
+              <Frequency>0.025</Frequency>
+            </StageGain>
+          </Stage>
+          <Stage number="3">
+            <FIR name="unity_mass_position_FIR_f">
+              <InputUnits>
+                <Name>COUNTS</Name>
+                <Description>Digital Count in Digital counts</Description>
+              </InputUnits>
+              <OutputUnits>
+                <Name>COUNTS</Name>
+                <Description>Digital Count in Digital counts</Description>
+              </OutputUnits>
+              <Symmetry>NONE</Symmetry>
+              <NumeratorCoefficient i="0">1.0</NumeratorCoefficient>
+            </FIR>
+            <Decimation>
+              <InputSampleRate unit="HERTZ">0.1</InputSampleRate>
+              <Factor>1</Factor>
+              <Offset>0</Offset>
+              <Delay>0.0</Delay>
+              <Correction>0.0</Correction>
+            </Decimation>
+            <StageGain>
+              <Value>1.0</Value>
+              <Frequency>0.025</Frequency>
+            </StageGain>
+          </Stage>
+        </Response>
+      </Channel>
+    </Station>
+  </Network>
+</FDSNStationXML>

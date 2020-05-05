@@ -1,0 +1,330 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<FDSNStationXML xmlns="http://www.fdsn.org/xml/station/1" schemaVersion="1.0">
+  <Source>IRIS-DMC</Source>
+  <Sender>IRIS-DMC</Sender>
+  <Module>IRIS WEB SERVICE: fdsnws-station | version: 1.1.37</Module>
+  <ModuleURI>http://service.iris.edu/fdsnws/station/1/query?location=%2A%2A&amp;starttime=2014-10-07T16%3A51%3A13.000000&amp;endtime=2014-10-07T16%3A51%3A53.000000&amp;network=OK&amp;station=W35A&amp;channel=%2A%2A&amp;level=response</ModuleURI>
+  <Created>2019-11-23T04:59:04</Created>
+  <Network code="OK" endDate="2599-12-31T23:59:59" restrictedStatus="open" startDate="1978-01-01T00:00:00">
+    <Description>Oklahoma Seismic Network</Description>
+    <TotalNumberStations>36</TotalNumberStations>
+    <SelectedNumberStations>1</SelectedNumberStations>
+    <Station code="W35A" endDate="2599-12-31T23:59:59" restrictedStatus="open" startDate="2012-02-15T00:00:00">
+      <Latitude unit="DEGREES">35.15274</Latitude>
+      <Longitude unit="DEGREES">-96.874527</Longitude>
+      <Elevation>322.0</Elevation>
+      <Site>
+        <Name>Tecumseh, Oklahoma, USA</Name>
+      </Site>
+      <CreationDate>2012-02-15T00:00:00</CreationDate>
+      <TotalNumberChannels>6</TotalNumberChannels>
+      <SelectedNumberChannels>3</SelectedNumberChannels>
+      <Channel code="EHE" endDate="2015-01-27T23:00:00" locationCode="" restrictedStatus="open" startDate="2012-02-15T00:00:00">
+        <Comment>
+          <Value>X</Value>
+        </Comment>
+        <Latitude unit="DEGREES">35.15274</Latitude>
+        <Longitude unit="DEGREES">-96.874527</Longitude>
+        <Elevation>322.0</Elevation>
+        <Depth>2.0</Depth>
+        <Azimuth unit="DEGREES">90.0</Azimuth>
+        <Dip unit="DEGREES">0.0</Dip>
+        <Type>CONTINUOUS</Type>
+        <Type>GEOPHYSICAL</Type>
+        <SampleRate unit="SAMPLES/S">100.0</SampleRate>
+        <ClockDrift unit="SECONDS/SAMPLE">0.0</ClockDrift>
+        <CalibrationUnits>
+          <Name>V</Name>
+          <Description>EMF in Volts</Description>
+        </CalibrationUnits>
+        <Sensor>
+          <Description>GS-13, 1 Hz, 2180 V/m/s, 9100 ohm coil-Generic Dat</Description>
+        </Sensor>
+        <Response>
+          <InstrumentSensitivity>
+            <Value>67458900000.0</Value>
+            <Frequency>1.0</Frequency>
+            <InputUnits>
+              <Name>M/S</Name>
+              <Description>Velocity in Meters Per Second</Description>
+            </InputUnits>
+            <OutputUnits>
+              <Name>COUNTS</Name>
+              <Description>Digital Counts</Description>
+            </OutputUnits>
+          </InstrumentSensitivity>
+          <Stage number="1">
+            <PolesZeros>
+              <InputUnits>
+                <Name>M/S</Name>
+                <Description>Velocity in Meters Per Second</Description>
+              </InputUnits>
+              <OutputUnits>
+                <Name>V</Name>
+                <Description>Volts</Description>
+              </OutputUnits>
+              <PzTransferFunctionType>LAPLACE (RADIANS/SECOND)</PzTransferFunctionType>
+              <NormalizationFactor>1.0</NormalizationFactor>
+              <NormalizationFrequency unit="HERTZ">5.0</NormalizationFrequency>
+              <Zero number="0">
+                <Real minusError="0.0" plusError="0.0">0.0</Real>
+                <Imaginary minusError="0.0" plusError="0.0">0.0</Imaginary>
+              </Zero>
+              <Zero number="1">
+                <Real minusError="0.0" plusError="0.0">0.0</Real>
+                <Imaginary minusError="0.0" plusError="0.0">0.0</Imaginary>
+              </Zero>
+              <Pole number="0">
+                <Real minusError="0.0" plusError="0.0">-4.443</Real>
+                <Imaginary minusError="0.0" plusError="0.0">4.443</Imaginary>
+              </Pole>
+              <Pole number="1">
+                <Real minusError="0.0" plusError="0.0">-4.443</Real>
+                <Imaginary minusError="0.0" plusError="0.0">-4.443</Imaginary>
+              </Pole>
+            </PolesZeros>
+            <StageGain>
+              <Value>2180.0</Value>
+              <Frequency>0.1</Frequency>
+            </StageGain>
+          </Stage>
+          <Stage number="2">
+            <StageGain>
+              <Value>1.0</Value>
+              <Frequency>1.0</Frequency>
+            </StageGain>
+          </Stage>
+          <Stage number="3">
+            <Coefficients>
+              <InputUnits>
+                <Name>V</Name>
+                <Description>Volts</Description>
+              </InputUnits>
+              <OutputUnits>
+                <Name>COUNTS</Name>
+                <Description>Digital Counts</Description>
+              </OutputUnits>
+              <CfTransferFunctionType>DIGITAL</CfTransferFunctionType>
+              <Numerator minusError="0.00000" plusError="0.00000">1.0</Numerator>
+            </Coefficients>
+            <Decimation>
+              <InputSampleRate unit="HERTZ">100.0</InputSampleRate>
+              <Factor>1</Factor>
+              <Offset>0</Offset>
+              <Delay>0.0</Delay>
+              <Correction>0.0</Correction>
+            </Decimation>
+            <StageGain>
+              <Value>437587.0</Value>
+              <Frequency>1.0</Frequency>
+            </StageGain>
+          </Stage>
+        </Response>
+      </Channel>
+      <Channel code="EHN" endDate="2015-01-27T23:00:00" locationCode="" restrictedStatus="open" startDate="2012-02-15T00:00:00">
+        <Comment>
+          <Value>X</Value>
+        </Comment>
+        <Latitude unit="DEGREES">35.15274</Latitude>
+        <Longitude unit="DEGREES">-96.874527</Longitude>
+        <Elevation>322.0</Elevation>
+        <Depth>2.0</Depth>
+        <Azimuth unit="DEGREES">0.0</Azimuth>
+        <Dip unit="DEGREES">0.0</Dip>
+        <Type>CONTINUOUS</Type>
+        <Type>GEOPHYSICAL</Type>
+        <SampleRate unit="SAMPLES/S">100.0</SampleRate>
+        <ClockDrift unit="SECONDS/SAMPLE">0.0</ClockDrift>
+        <CalibrationUnits>
+          <Name>V</Name>
+          <Description>EMF in Volts</Description>
+        </CalibrationUnits>
+        <Sensor>
+          <Description>GS-13, 1 Hz, 2180 V/m/s, 9100 ohm coil-Generic Dat</Description>
+        </Sensor>
+        <Response>
+          <InstrumentSensitivity>
+            <Value>66248100000.0</Value>
+            <Frequency>1.0</Frequency>
+            <InputUnits>
+              <Name>M/S</Name>
+              <Description>Velocity in Meters Per Second</Description>
+            </InputUnits>
+            <OutputUnits>
+              <Name>COUNTS</Name>
+              <Description>Digital Counts</Description>
+            </OutputUnits>
+          </InstrumentSensitivity>
+          <Stage number="1">
+            <PolesZeros>
+              <InputUnits>
+                <Name>M/S</Name>
+                <Description>Velocity in Meters Per Second</Description>
+              </InputUnits>
+              <OutputUnits>
+                <Name>V</Name>
+                <Description>Volts</Description>
+              </OutputUnits>
+              <PzTransferFunctionType>LAPLACE (RADIANS/SECOND)</PzTransferFunctionType>
+              <NormalizationFactor>1.0</NormalizationFactor>
+              <NormalizationFrequency unit="HERTZ">5.0</NormalizationFrequency>
+              <Zero number="0">
+                <Real minusError="0.0" plusError="0.0">0.0</Real>
+                <Imaginary minusError="0.0" plusError="0.0">0.0</Imaginary>
+              </Zero>
+              <Zero number="1">
+                <Real minusError="0.0" plusError="0.0">0.0</Real>
+                <Imaginary minusError="0.0" plusError="0.0">0.0</Imaginary>
+              </Zero>
+              <Pole number="0">
+                <Real minusError="0.0" plusError="0.0">-4.443</Real>
+                <Imaginary minusError="0.0" plusError="0.0">4.443</Imaginary>
+              </Pole>
+              <Pole number="1">
+                <Real minusError="0.0" plusError="0.0">-4.443</Real>
+                <Imaginary minusError="0.0" plusError="0.0">-4.443</Imaginary>
+              </Pole>
+            </PolesZeros>
+            <StageGain>
+              <Value>2180.0</Value>
+              <Frequency>0.1</Frequency>
+            </StageGain>
+          </Stage>
+          <Stage number="2">
+            <StageGain>
+              <Value>1.0</Value>
+              <Frequency>1.0</Frequency>
+            </StageGain>
+          </Stage>
+          <Stage number="3">
+            <Coefficients>
+              <InputUnits>
+                <Name>V</Name>
+                <Description>Volts</Description>
+              </InputUnits>
+              <OutputUnits>
+                <Name>COUNTS</Name>
+                <Description>Digital Counts</Description>
+              </OutputUnits>
+              <CfTransferFunctionType>DIGITAL</CfTransferFunctionType>
+              <Numerator minusError="0.00000" plusError="0.00000">1.0</Numerator>
+            </Coefficients>
+            <Decimation>
+              <InputSampleRate unit="HERTZ">100.0</InputSampleRate>
+              <Factor>1</Factor>
+              <Offset>0</Offset>
+              <Delay>0.0</Delay>
+              <Correction>0.0</Correction>
+            </Decimation>
+            <StageGain>
+              <Value>429733.0</Value>
+              <Frequency>1.0</Frequency>
+            </StageGain>
+          </Stage>
+        </Response>
+      </Channel>
+      <Channel code="EHZ" endDate="2015-01-27T23:00:00" locationCode="" restrictedStatus="open" startDate="2012-02-15T00:00:00">
+        <Comment>
+          <Value>X</Value>
+        </Comment>
+        <Latitude unit="DEGREES">35.15274</Latitude>
+        <Longitude unit="DEGREES">-96.874527</Longitude>
+        <Elevation>322.0</Elevation>
+        <Depth>2.0</Depth>
+        <Azimuth unit="DEGREES">0.0</Azimuth>
+        <Dip unit="DEGREES">90.0</Dip>
+        <Type>CONTINUOUS</Type>
+        <Type>GEOPHYSICAL</Type>
+        <SampleRate unit="SAMPLES/S">100.0</SampleRate>
+        <ClockDrift unit="SECONDS/SAMPLE">0.0</ClockDrift>
+        <CalibrationUnits>
+          <Name>V</Name>
+          <Description>EMF in Volts</Description>
+        </CalibrationUnits>
+        <Sensor>
+          <Description>GS-13, 1 Hz, 2180 V/m/s, 9100 ohm coil-Generic Dat</Description>
+        </Sensor>
+        <Response>
+          <InstrumentSensitivity>
+            <Value>67458900000.0</Value>
+            <Frequency>1.0</Frequency>
+            <InputUnits>
+              <Name>M/S</Name>
+              <Description>Velocity in Meters Per Second</Description>
+            </InputUnits>
+            <OutputUnits>
+              <Name>COUNTS</Name>
+              <Description>Digital Counts</Description>
+            </OutputUnits>
+          </InstrumentSensitivity>
+          <Stage number="1">
+            <PolesZeros>
+              <InputUnits>
+                <Name>M/S</Name>
+                <Description>Velocity in Meters Per Second</Description>
+              </InputUnits>
+              <OutputUnits>
+                <Name>V</Name>
+                <Description>Volts</Description>
+              </OutputUnits>
+              <PzTransferFunctionType>LAPLACE (RADIANS/SECOND)</PzTransferFunctionType>
+              <NormalizationFactor>1.0</NormalizationFactor>
+              <NormalizationFrequency unit="HERTZ">5.0</NormalizationFrequency>
+              <Zero number="0">
+                <Real minusError="0.0" plusError="0.0">0.0</Real>
+                <Imaginary minusError="0.0" plusError="0.0">0.0</Imaginary>
+              </Zero>
+              <Zero number="1">
+                <Real minusError="0.0" plusError="0.0">0.0</Real>
+                <Imaginary minusError="0.0" plusError="0.0">0.0</Imaginary>
+              </Zero>
+              <Pole number="0">
+                <Real minusError="0.0" plusError="0.0">-4.443</Real>
+                <Imaginary minusError="0.0" plusError="0.0">4.443</Imaginary>
+              </Pole>
+              <Pole number="1">
+                <Real minusError="0.0" plusError="0.0">-4.443</Real>
+                <Imaginary minusError="0.0" plusError="0.0">-4.443</Imaginary>
+              </Pole>
+            </PolesZeros>
+            <StageGain>
+              <Value>2180.0</Value>
+              <Frequency>0.1</Frequency>
+            </StageGain>
+          </Stage>
+          <Stage number="2">
+            <StageGain>
+              <Value>1.0</Value>
+              <Frequency>1.0</Frequency>
+            </StageGain>
+          </Stage>
+          <Stage number="3">
+            <Coefficients>
+              <InputUnits>
+                <Name>V</Name>
+                <Description>Volts</Description>
+              </InputUnits>
+              <OutputUnits>
+                <Name>COUNTS</Name>
+                <Description>Digital Counts</Description>
+              </OutputUnits>
+              <CfTransferFunctionType>DIGITAL</CfTransferFunctionType>
+              <Numerator minusError="0.00000" plusError="0.00000">1.0</Numerator>
+            </Coefficients>
+            <Decimation>
+              <InputSampleRate unit="HERTZ">100.0</InputSampleRate>
+              <Factor>1</Factor>
+              <Offset>0</Offset>
+              <Delay>0.0</Delay>
+              <Correction>0.0</Correction>
+            </Decimation>
+            <StageGain>
+              <Value>437587.0</Value>
+              <Frequency>1.0</Frequency>
+            </StageGain>
+          </Stage>
+        </Response>
+      </Channel>
+    </Station>
+  </Network>
+</FDSNStationXML>

@@ -1,0 +1,11 @@
+PARAMETER		VALUE
+dataPath			./Example1_PAPER-Section3.2/
+velModel			ak135_Section3.2
+arrTimeDiffTole 		0.4
+ccThreshold		0.9
+frequencyFrom		1
+frequencyTo		10
+scanDepthFrom		1
+scanDepthTo		31
+verboseFlag		1
+plotSteps1n2Flag		1

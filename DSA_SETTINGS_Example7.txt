@@ -1,0 +1,11 @@
+PARAMETER		VALUE
+dataPath			./Example7_2018-08-29-mw44-California/
+velModel			2018-08-29-mw44
+arrTimeDiffTole 		0.4
+ccThreshold		0.65
+frequencyFrom		0.5
+frequencyTo		5.0
+scanDepthFrom		1
+scanDepthTo		31
+verboseFlag		1
+plotSteps1n2Flag		1

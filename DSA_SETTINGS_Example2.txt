@@ -1,0 +1,11 @@
+PARAMETER		VALUE
+dataPath			./Example2_2014-10-07-mw40-Oklahoma/
+velModel			2014-10-07-mw40
+arrTimeDiffTole 		0.4
+ccThreshold		0.7
+frequencyFrom		1
+frequencyTo		20
+scanDepthFrom		1
+scanDepthTo		31
+verboseFlag		1
+plotSteps1n2Flag		1
