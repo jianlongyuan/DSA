@@ -1,4 +1,3 @@
-# DSA_1.0
 ------------------------------------------------------------------------------------------------
 About This Algorithm:
   An innovative method for automatically relocating the focal depths of local or regional
