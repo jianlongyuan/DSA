@@ -30,14 +30,17 @@ Output:
   Focal depth (median) 
   
   
-More details see in our preprint submitted to JGR: Solid Earth entitled:
-    “Depth-Scanning Algorithm: Accurate, Automatic, and Efficient Determination
-     of Focal Depths for Local and Regional Earthquakes” by Jianlong Yuan,
-     Honn Kao, and Jiashun Yu
+For more details please refer to our paper below:
+  Yuan, J., Kao, H., & Yu, J. (2020). Depth-Scanning Algorithm: Accurate, Automatic, and
+  Efficient Determination of Focal Depths for Local and Regional Earthquakes.
+  Journal of Geophysical Research: Solid Earth, 125, e2020JB019430.
+  https://doi.org/10.1029/2020JB019430
 
 
-Get a preprint or have questions? Please contact Jianlong Yuan at:
-    yuan_jianlong@126.com
+Any questions or advices? Please contact:
+  yuan_jianlong@126.com
+  honn.kao@canada.ca
+  j.yu@cdut.edu.cn
      
 """
 

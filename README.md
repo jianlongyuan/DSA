@@ -1,10 +1,8 @@
 ------------------------------------------------------------------------------------------------
-About This Algorithm:
-  An innovative method for automatically relocating the focal depths of local or regional
-earthquakes, especially in the case that only a sparse network with stations located far
-away from the epicenter is available.
+About this algorithm:
+An innovative method for automatic relocation of the focal depth of a local or regional earthquake, especially in the case that only a sparse network with stations located far away from the epicenter is available. For more details please refer to our paper below:
+Yuan, J., Kao, H., & Yu, J. (2020). Depth-Scanning Algorithm: Accurate, Automatic, and Efficient Determination of Focal Depths for Local and Regional Earthquakes. Journal of Geophysical Research: Solid Earth, 125, e2020JB019430. https://doi.org/10.1029/2020JB019430
 
-Name:  Depth-Scanning Algorithm (DSA)
 
 Framework:
   1. Automatic generation of synthetic waveforms for all possible depth phases.
@@ -21,13 +19,13 @@ Output:
 
 ------------------------------------------------------------------------------------------------
 
-Installation Requirements (recommend via Anaconda):
+Installation requirements (recommend via Anaconda):
   1. Python 3.6.
-  2. Basic packages: matplotlib，numpy，math，obspy，scipy，pandas.
+  2. Basic packages: matplotlib, numpy, math, obspy, scipy, pandas.
 
 ------------------------------------------------------------------------------------------------
 
-Data Preparation for Running DSA:
+Data preparation for running DSA:
   1. Three-component waveforms (SAC) and corresponding response (XML).
         Waveform data can be one of the groups as follow:
             BH1/BH2/BHZ, BHE/BHN/BHZ, HH1/HH2/HHZ, HHE/HHN/HHZ, EHE/EHN/EHZ.
@@ -48,7 +46,7 @@ Data Preparation for Running DSA:
 			
 ------------------------------------------------------------------------------------------------
 
-Run Test:
+Run test:
 1. The default example is 'Example1_PAPER-Section3.2'. Run the command like:
   python DSA_1.0.py
 
@@ -60,18 +58,23 @@ Run Test:
 
 ------------------------------------------------------------------------------------------------
 
-See Locating Results:
+See locating results:
 1. After running, locating results are in the 'results' folder in the related waveform's directory.
 
 2. A demo for plotting comparison of depth solutions is the python script named:
         'plot_comparisonFinalSolution_Oklahoma.py'
 
 ------------------------------------------------------------------------------------------------
-     
-More details see in our preprint submitted to JGR: Solid Earth entitled:
-  'Depth-Scanning Algorithm: Accurate, Automatic, and Efficient Determination of Focal
-   Depths for Local and Regional Earthquakes' by Jianlong Yuan, Honn Kao, and Jiashun Yu
 
-Get a preprint or have questions? Please contact Jianlong Yuan: yuan_jianlong@126.com
+If you use this software for your research, please cite:
+
+Yuan, J., Kao, H., & Yu, J. (2020). Depth-Scanning Algorithm: Accurate, Automatic, and Efficient Determination of Focal Depths for Local and Regional Earthquakes. Journal of Geophysical Research: Solid Earth, 125, e2020JB019430. https://doi.org/10.1029/2020JB019430
+
+------------------------------------------------------------------------------------------------
+   
+Any questions or advices? Please contact:
+yuan_jianlong@126.com
+honn.kao@canada.ca
+j.yu@cdut.edu.cn
 
 ------------------------------------------------------------------------------------------------
