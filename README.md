@@ -78,3 +78,13 @@ honn.kao@canada.ca
 j.yu@cdut.edu.cn
 
 ------------------------------------------------------------------------------------------------
+
+Improvement at:
+  2022.03.03
+    Modifications due to new version of NumPy and Axes.hist:
+      'normed' -> 'density' , 'np.int' -> 'int' , 'np.float' -> 'float'
+  2022.08.10
+    Suggestion from Ackerley Nicholas:
+      Support loading: QuakeML and miniSEED. (see Example8_2014-10-07-16-51-13)
+  2022.08.11
+    Accelerated cross-correlation calculation by using 'numba' package.
