@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='utf-8'?>
+<q:quakeml xmlns:q="http://quakeml.org/xmlns/quakeml/1.2" xmlns:iris="http://service.iris.edu/fdsnws/event/1/" xmlns="http://quakeml.org/xmlns/bed/1.2" xmlns:xsi="http://www.w3.org/2000/10/XMLSchema-instance">
+  <eventParameters publicID="smi:service.iris.edu/fdsnws/event/1/query">
+    <event publicID="smi:service.iris.edu/fdsnws/event/1/query?eventid=4810760">
+      <preferredOriginID>smi:service.iris.edu/fdsnws/event/1/query?originid=26258005</preferredOriginID>
+      <preferredMagnitudeID>smi:service.iris.edu/fdsnws/event/1/query?magnitudeid=202846614</preferredMagnitudeID>
+      <type>earthquake</type>
+      <description iris:FEcode="499">
+        <text>OKLAHOMA</text>
+        <type>Flinn-Engdahl region</type>
+      </description>
+      <origin publicID="smi:service.iris.edu/fdsnws/event/1/query?originid=26258005" iris:contributorOriginId="09086478" iris:contributor="ISC" iris:contributorEventId="610572948" iris:catalog="ISC">
+        <time>
+          <value>2014-10-07T16:51:13.030000Z</value>
+        </time>
+        <latitude>
+          <value>35.9473</value>
+        </latitude>
+        <longitude>
+          <value>-96.7177</value>
+        </longitude>
+        <depth>
+          <value>11700.0</value>
+        </depth>
+        <creationInfo>
+          <author>ISC</author>
+        </creationInfo>
+      </origin>
+      <magnitude publicID="smi:service.iris.edu/fdsnws/event/1/query?magnitudeid=202846614">
+        <mag>
+          <value>4.0</value>
+        </mag>
+        <type>mb</type>
+        <creationInfo>
+          <author>NEIC</author>
+        </creationInfo>
+      </magnitude>
+    </event>
+  </eventParameters>
+</q:quakeml>
