@@ -80,6 +80,7 @@ j.yu@cdut.edu.cn
 ------------------------------------------------------------------------------------------------
 
 Improvement at:
+
   2022.03.03
     Modifications due to new version of NumPy and Axes.hist:
       'normed' -> 'density' , 'np.int' -> 'int' , 'np.float' -> 'float'
