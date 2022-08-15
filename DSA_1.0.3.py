@@ -2432,11 +2432,10 @@ else:
         
         #-- This commend is only for the synthetic example in Section 3.2 of DSA paper
         if velModel == "ak135_Section3.2":
-            for iwin in range( numWinnerStep2 ):
-                line, = ax1.plot(depthRangeWellBehavedStation[iwin], rmsWellBehavedStation[iwin],
-                                 label='RTZ', color='black', linewidth=0.5 )
-        ax1.axvline( 13.5, linewidth=1.2, color='red', linestyle='-' )
-        
+            ax1.axvline( 13.5, linewidth=1.2, color='red', linestyle='-' )
+        for iwin in range( numWinnerStep2 ):
+            line, = ax1.plot(depthRangeWellBehavedStation[iwin], rmsWellBehavedStation[iwin],
+                             label='RTZ', color='black', linewidth=0.5 )
         
         ax1.text( finalDepthSolution-0.3, minRms*1.2,
                   "(x={0}, y={1})".format(
